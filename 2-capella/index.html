@@ -1,0 +1,1392 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>בית קטן בבקעה | מלון בוטיק בירושלים</title>
+<meta name="description" content="בית קטן בבקעה — מלון בוטיק בבית ערבי משנות ה־20, עם קשתות ועמודים, בלב שכונת בקעה בירושלים. 34 חדרים, גן פורח, חניה חינם, והזמנה ישירה ב־5% הנחה.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23242F3A'/%3E%3Cpath d='M22 50V30a10 10 0 0 1 20 0v20z' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Cpath d='M32 33v8M28 37h8' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#242F3A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Frank+Ruhl+Libre:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="../img/lounge.jpg">
+<script src="../shared/baka.js"></script>
+<style>
+/* מידות העמוד מכוילות למקור ב־1440×900 (מסגרת תוכן 1425 אחרי פס הגלילה), במראה RTL:
+   מיקום אופקי N פיקסלים מהקצה = calc(N / 1425 * 100%) מרוחב המסגרת.
+   גבהים במקור: Hero 900 · כותרת 185 · מבוא 1075 · חדרים 926 · גלריה 760 · פס הזמנה 216 ·
+   הצעות 1012 · פרסים 1125 · בריאות וקיימות 444 · צור קשר+פוטר 650; רווח 90 בין הסקשנים. */
+:root{
+  --ink:#242F3A; --ink-deep:#1B242D; --dark:#212322; --gray:#666; --gray-2:#919191; --line:#DCDCDC; --line-soft:#ECECEC;
+  --mist:#EFEFEF; --taupe:#8C8985; --taupe-dark:#76736F; --blush:#F6E9E2; --blush-soft:#FBF5F1;
+  --serif:'Frank Ruhl Libre','David Libre',Georgia,serif;
+  --sans:'Assistant','Segoe UI',Arial,sans-serif;
+  --gutter:clamp(20px,4.2vw,64px);
+  --hdr-top:70px; --hdr-nav:46px; --hdr-band:69px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--hdr-top) + var(--hdr-nav) + 34px);scrollbar-gutter:stable}
+html.is-locked{overflow:hidden}
+body{margin:0;background:#fff;color:var(--ink);font:400 17px/1.4 var(--sans);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+img{display:block;max-width:100%;height:auto}
+figure{margin:0}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:1px solid currentColor;outline-offset:3px}
+::selection{background:var(--blush);color:var(--ink)}
+.skip{position:fixed;top:-80px;inset-inline-start:16px;z-index:300;background:var(--ink);color:#fff;padding:12px 20px;text-decoration:none;font-size:15px;transition:top .3s var(--ease)}
+.skip:focus{top:16px}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.cp{position:relative;width:100%;max-width:1425px;margin-inline:auto}
+
+/* ---------- טיפוגרפיה — הערכים שנמדדו במקור, ללא התאמות ---------- */
+.h-xl{font-family:var(--serif);font-weight:300;font-size:clamp(34px,3.48vw,50px);line-height:1;letter-spacing:2.5px;color:var(--ink);margin:0}
+.tagline{font-family:var(--serif);font-weight:400;font-size:clamp(23px,2.09vw,30px);line-height:1.2;letter-spacing:.2px;color:var(--gray-2);margin:0}
+.para{font:400 17px/20px var(--sans);letter-spacing:.2px;color:var(--gray-2)}
+.para p{margin:0 0 12px}
+.para p:last-child{margin-bottom:0}
+.label{font:400 12px/14px var(--sans);letter-spacing:1px;color:var(--ink);margin:0}
+.tlink{display:inline-block;font:400 14px/17px var(--sans);letter-spacing:1px;color:var(--ink);text-decoration:none;padding:0;margin:0;border:0;border-bottom:.8px solid currentColor;border-radius:0;background:none;cursor:pointer;transition:opacity .35s var(--ease)}
+.tlink:hover{opacity:.55}
+.display{font-family:var(--serif);font-weight:300;font-size:clamp(30px,3vw,44px);line-height:1.1;letter-spacing:2px;margin:0;color:var(--ink)}
+.display--md{font-size:clamp(26px,2.4vw,34px);letter-spacing:1.5px;line-height:1.15}
+.eyebrow{font:400 12px/1.5 var(--sans);letter-spacing:1px;color:var(--gray);margin:0 0 14px}
+.copy{font-size:16.5px;line-height:1.75;color:var(--gray)}
+.copy p{margin:0 0 1em}
+.copy p:last-child{margin-bottom:0}
+
+/* ---------- כפתורים (גם לשכבת ההזמנה) ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:12px 28px;font:400 14px/1.1 var(--sans);letter-spacing:1px;color:var(--ink);background:transparent;border:.8px solid var(--ink);border-radius:0;cursor:pointer;text-decoration:none;text-align:center;transition:background-color .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease)}
+.btn:hover{background:var(--ink);color:#fff}
+.btn--taupe{background:var(--taupe);border-color:var(--taupe);color:#fff}
+.btn--taupe:hover{background:var(--taupe-dark);border-color:var(--taupe-dark)}
+.btn--ink{background:var(--ink);color:#fff}
+.btn--ink:hover{background:var(--ink-deep)}
+.btn--sm{min-height:40px;padding:9px 20px;font-size:14px}
+.btn--block{width:100%}
+.btn[disabled]{opacity:.38;cursor:not-allowed;pointer-events:none}
+.btn svg{width:18px;height:18px}
+.link{display:inline-block;font:400 14.5px/1.5 var(--sans);letter-spacing:.06em;color:var(--ink);text-decoration:none;padding:0 0 4px;background:linear-gradient(currentColor,currentColor) 100% 100%/100% 1px no-repeat;transition:background-size .45s var(--ease);cursor:pointer;border:0;background-color:transparent}
+.link:hover{background-size:0 1px}
+.icon-btn{width:44px;height:44px;display:inline-grid;place-items:center;background:none;border:0;padding:0;cursor:pointer;color:inherit;flex:none}
+.icon-btn svg{width:22px;height:22px}
+.img-hover{overflow:hidden}
+.img-hover img{transition:transform 1.6s var(--ease)}
+.img-hover:hover img{transform:scale(1.035)}
+.frame{position:relative;overflow:hidden;background:var(--mist)}
+.frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+/* ---------- Hero: 100vh, סמל + שם במרכז, שורה בתחתית, קישור בפינה ---------- */
+.hero{position:relative;height:100vh;height:100svh;min-height:560px;max-height:1200px;overflow:hidden;background:#1b2027;color:#fff;display:grid;place-items:center}
+.hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.74) contrast(1.05) saturate(.9);transform:scale(1.08);animation:heroZoom 14s var(--ease) forwards}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 55% 50% at 50% 46%,rgba(16,21,28,.34),rgba(16,21,28,0) 100%),linear-gradient(180deg,rgba(16,21,28,.42) 0%,rgba(16,21,28,.1) 34%,rgba(16,21,28,.14) 62%,rgba(16,21,28,.58) 100%)}
+.hero__brand{position:relative;z-index:1;display:grid;justify-items:center;text-align:center;margin-top:-5vh;opacity:0;animation:fadeUp 1.8s .3s var(--ease) forwards}
+.hero__mark{display:block;width:34px;height:41px;margin-bottom:16px}
+.hero__mark svg{width:100%;height:100%}
+.hero__name{font-family:var(--serif);font-weight:300;font-size:clamp(40px,4.2vw,60px);line-height:1;letter-spacing:.2em;padding-inline-start:.2em;margin:0}
+.hero__sub{font:400 12px/1 var(--sans);letter-spacing:.42em;padding-inline-start:.42em;margin:16px 0 0;color:rgba(255,255,255,.88)}
+.hero__line{position:absolute;z-index:1;inset-inline:0;bottom:112px;margin:0;padding-inline:24px;text-align:center;font-family:var(--serif);font-weight:400;font-size:clamp(18px,1.81vw,26px);line-height:1.3;letter-spacing:.2px;opacity:0;animation:fadeUp 1.6s .9s var(--ease) forwards}
+.hero__gallery{position:absolute;z-index:2;inset-inline-end:64px;bottom:56px;background:none;border:0;border-bottom:.8px solid rgba(255,255,255,.8);color:#fff;font:400 12px/1 var(--sans);letter-spacing:1px;padding:0 0 4px;cursor:pointer;opacity:0;animation:fadeUp 1.6s 1.1s var(--ease) forwards}
+.hero__gallery:hover{border-color:#fff}
+@keyframes heroZoom{to{transform:scale(1)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* ---------- כותרת דו־קומתית (70 + 46) ופס בלאש (69) — דביקה, מתחת ל־Hero ---------- */
+.site-header{position:sticky;top:0;z-index:60}
+.hdr-rows{background:#fff}
+.hdr-top{position:relative;height:var(--hdr-top);max-width:1425px;margin-inline:auto}
+.hdr-top>.hdr-lang,.hdr-top>.hdr-a,.hdr-top>.brand,.hdr-top>.btn--hdr{position:absolute;top:50%}
+.hdr-lang{inset-inline-start:calc(63 / 1425 * 100%);transform:translateY(-50%)}
+.hdr-a--1{inset-inline-start:calc(413 / 1425 * 100%);transform:translate(50%,-50%)}
+.hdr-top>.brand{left:50%;transform:translate(-50%,-50%)}
+.hdr-a--2{inset-inline-end:calc(497 / 1425 * 100%);transform:translate(-50%,-50%)}
+.hdr-top>.btn--hdr{inset-inline-end:calc(52 / 1425 * 100%);transform:translateY(-50%)}
+.hdr-a{font:400 14px/1 var(--sans);letter-spacing:.3px;color:var(--ink);text-decoration:none;padding:10px 0;white-space:nowrap}
+.hdr-a::after{content:"";position:absolute;inset-inline:0;bottom:6px;height:.8px;background:currentColor;transform:scaleX(0);transition:transform .45s var(--ease)}
+.hdr-a:hover::after{transform:scaleX(1)}
+.brand{display:grid;place-items:center;text-decoration:none;color:var(--ink);padding:8px 12px}
+.brand__mark{display:block;width:17px;height:21px}
+.brand__mark svg{width:100%;height:100%}
+.btn--hdr{min-height:38px;padding:10px 22px;font-size:14px;letter-spacing:.3px;white-space:nowrap}
+.btn--hdr .short{display:none}
+.hdr-burger{display:none}
+.lang{position:relative}
+.lang__btn{display:inline-flex;align-items:center;gap:6px;background:none;border:0;padding:10px 0;font:400 13.5px/1 var(--sans);letter-spacing:.3px;color:var(--gray-2);cursor:pointer}
+.lang__btn svg{width:11px;height:11px;transition:transform .3s var(--ease)}
+.lang__btn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.lang__menu{position:absolute;top:100%;inset-inline-start:-14px;margin:6px 0 0;padding:8px 0;list-style:none;background:#fff;border:1px solid var(--line);min-width:150px;box-shadow:0 18px 40px -24px rgba(36,47,58,.4)}
+.lang__menu li>*{display:block;padding:9px 16px;font-size:14px;letter-spacing:.06em;text-decoration:none;color:var(--ink)}
+.lang__menu span{color:var(--gray-2)}
+.lang__menu a:hover{background:var(--blush-soft)}
+.hdr-nav{height:var(--hdr-nav);display:flex;justify-content:center;align-items:center;gap:clamp(16px,1.95vw,28px);border-top:1px solid var(--line-soft);padding-inline:var(--gutter)}
+.hdr-nav a,.hdr-nav button{position:relative;font:400 14px/1 var(--sans);letter-spacing:.3px;color:var(--ink);text-decoration:none;padding:14px 0;white-space:nowrap;background:none;border:0;cursor:pointer}
+.hdr-nav a::after,.hdr-nav button::after{content:"";position:absolute;inset-inline:0;bottom:9px;height:.8px;background:currentColor;transform:scaleX(0);transition:transform .45s var(--ease)}
+.hdr-nav a:hover::after,.hdr-nav button:hover::after,.hdr-nav a.is-active::after{transform:scaleX(1)}
+.hdr-band{height:var(--hdr-band);background:linear-gradient(180deg,rgba(246,233,226,.95) 0%,rgba(246,233,226,.62) 38%,rgba(246,233,226,0) 100%);pointer-events:none}
+
+/* ---------- סקשנים: רווח 90 מחוץ לקופסה (כמו במקור) ---------- */
+.sec{margin-top:90px}
+
+/* ---------- מבוא: כותרת x143, סלוגן w442, פסקה w342 בעמודה הרחוקה, קולאז׳ 797×502 (y570) + 341×341 (y730) ---------- */
+.intro__head{margin-inline-start:calc(143 / 1425 * 100%)}
+.intro__row{display:flex;justify-content:space-between;align-items:flex-start;margin-top:110px;min-height:285px}
+.intro__tag{margin-inline-start:calc(143 / 1425 * 100%);width:calc(442 / 1425 * 100%)}
+.intro__para{margin-inline-end:calc(271 / 1425 * 100%);width:calc(342 / 1425 * 100%)}
+.intro__para .tlink{margin-top:26px}
+.collage{display:flex;justify-content:space-between;align-items:flex-end;margin-top:106px}
+.c-large{margin-inline-start:calc(29 / 1425 * 100%);width:calc(797 / 1425 * 100%)}
+.c-large .label{margin-bottom:5px}
+.c-large .frame{aspect-ratio:797/502}
+.c-small{margin-inline-end:calc(144 / 1425 * 100%);width:calc(341 / 1425 * 100%)}
+.c-small .frame{aspect-ratio:1}
+
+/* ---------- חדרים: לשוניות 14/17 ls2 (y242), תמונה 911×512 (y271), שם 24/29 ls2 + פסקה w342 (y823) ---------- */
+.acc-head{display:flex;justify-content:space-between;align-items:flex-start;min-height:200px}
+.acc-head .h-xl{margin-inline-start:calc(143 / 1425 * 100%)}
+.acc-head .para{width:calc(342 / 1425 * 100%);margin:0;margin-inline-end:calc(257 / 1425 * 100%)}
+.tabs{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 30px;margin-top:42px}
+.tab{position:relative;background:none;border:0;border-bottom:.8px solid transparent;padding:0;font:400 14px/17px var(--sans);letter-spacing:2px;color:#232323;cursor:pointer;transition:color .3s var(--ease),border-color .3s var(--ease)}
+.tab:hover{color:var(--gray-2)}
+.tab[aria-selected="true"]{color:var(--gray-2);border-bottom-color:currentColor}
+.room-figure{width:calc(911 / 1425 * 100%);margin:12px auto 0;aspect-ratio:911/512}
+.room-figure img{transition:opacity .45s var(--ease),transform 1.6s var(--ease)}
+.room-figure img.is-fading{opacity:0}
+.room-row{display:flex;justify-content:space-between;align-items:flex-start;margin-top:40px}
+.room-row .rn{margin-inline-start:calc(257 / 1425 * 100%);width:calc(341 / 1425 * 100%)}
+.room-row .rc{margin-inline-end:calc(257 / 1425 * 100%);width:calc(342 / 1425 * 100%)}
+.rn h3{font-family:var(--serif);font-weight:300;font-size:24px;line-height:29px;letter-spacing:2px;color:var(--dark);margin:0}
+.rn .rmeta{font:400 12px/14px var(--sans);letter-spacing:1px;color:var(--gray-2);margin:8px 0 0}
+.rc .para{margin:0}
+.rlinks{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:14px}
+
+/* ---------- גלריה: 1296×723 במרכז, נקודות, חצים ---------- */
+.sl-frame{position:relative;width:calc(1296 / 1425 * 100%);margin-inline:auto;aspect-ratio:1296/723;overflow:hidden;background:var(--mist)}
+.sl-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .9s var(--ease);cursor:pointer}
+.sl-frame img.is-on{opacity:1}
+.sl-arrow{position:absolute;top:50%;z-index:2;width:48px;height:48px;margin-top:-24px;display:grid;place-items:center;background:none;border:0;padding:0;color:#fff;cursor:pointer;filter:drop-shadow(0 1px 6px rgba(0,0,0,.35));transition:opacity .3s}
+.sl-arrow:hover{opacity:.7}
+.sl-arrow svg{width:30px;height:30px}
+.sl-prev{inset-inline-start:18px}
+.sl-next{inset-inline-end:18px}
+.sl-dots{display:flex;justify-content:center;gap:10px;margin-top:30px}
+.sl-dot{width:7px;height:7px;border-radius:50%;border:0;padding:0;background:#C9C9C9;cursor:pointer;transition:background-color .3s}
+.sl-dot[aria-current="true"]{background:var(--ink)}
+
+/* ---------- פס הזמינו שהות: #EFEFEF, 216, כותרת 40/44 w235 (x163), טקסט 24/29 w455 במרכז, תמונה בקצה ---------- */
+.band{background:var(--mist);padding:30px 0}
+.band .cp{min-height:156px;display:flex;align-items:center;justify-content:center}
+.band__h{position:absolute;top:50%;inset-inline-start:calc(163 / 1425 * 100%);width:calc(235 / 1425 * 100%);transform:translateY(-50%);font-family:var(--serif);font-weight:300;font-size:40px;line-height:44px;letter-spacing:.2px;color:var(--dark);margin:0}
+.band__body{width:calc(455 / 1425 * 100%)}
+.band__txt{font-family:var(--serif);font-weight:400;font-size:24px;line-height:29px;letter-spacing:.2px;color:var(--dark);margin:0 0 14px}
+.band__art{position:absolute;top:50%;inset-inline-end:calc(146 / 1425 * 100%);width:calc(180 / 1425 * 100%);transform:translateY(-50%);color:var(--taupe);display:grid;place-items:center}
+.band__art svg{width:86px;height:104px}
+
+/* ---------- הצעות: כותרת 50, 3 כרטיסים ריבועיים 426 ברווח 16 (y110), כותרת 24/26, טקסט 14/17 ---------- */
+.of .cp{padding-inline:calc(57 / 1425 * 100%)}
+.of-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px}
+.of-ctrl{display:flex;align-items:center;gap:4px;font:400 13px/1 var(--sans);letter-spacing:1px;color:var(--gray-2)}
+.of-ctrl .count{min-width:64px;text-align:center}
+.of-ctrl .icon-btn{width:40px;height:40px}
+.of-ctrl .icon-btn:disabled{opacity:.3;cursor:default}
+.of-ctrl .icon-btn svg{width:20px;height:20px}
+.of-track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 32px) / 3);gap:16px;margin-top:60px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none}
+.of-track::-webkit-scrollbar{display:none}
+.of-card{scroll-snap-align:start;min-width:0}
+.of-card .frame{aspect-ratio:1}
+.of-card h3{font-family:var(--serif);font-weight:300;font-size:24px;line-height:26px;letter-spacing:.2px;color:var(--dark);margin:26px 0 0}
+.of-card p.of-text{font:400 14px/17px var(--sans);letter-spacing:.2px;color:var(--dark);margin:12px 0 0}
+.of-card .tlink{margin-top:18px}
+.of-dots{display:flex;justify-content:center;gap:10px;margin-top:64px}
+
+/* ---------- פרסים / בריאות וקיימות: 3 בשורה (שורות 354), תיבה 403×161 (y90), כותרת 24/26 ---------- */
+.aw .cp{padding-inline:calc(64 / 1425 * 100%)}
+.aw-grid{display:grid;grid-template-columns:repeat(3,calc(403 / 1289 * 100%));grid-template-rows:354px 354px auto;column-gap:16px;margin-top:40px;padding-inline-start:8px;align-items:start}
+.aw-grid--2{grid-template-rows:auto}
+.aw-card{display:block;min-width:0;padding:0;margin:0;border:0;background:none;text-align:start;color:inherit;font:inherit}
+button.aw-card{cursor:pointer}
+button.aw-card:hover .aw-box{background:var(--blush-soft)}
+.aw-box{display:grid;place-items:center;aspect-ratio:403/161;background:#fff;color:var(--ink);transition:background-color .35s var(--ease)}
+.aw-q{font-family:var(--serif);font-weight:300;font-size:96px;line-height:.6;color:var(--taupe);padding-top:.35em}
+.aw-box svg{width:58px;height:58px;stroke-width:1}
+.aw-card h3,.aw-card .aw-t{display:block;font-family:var(--serif);font-weight:500;font-size:24px;line-height:26px;letter-spacing:.2px;color:#000;margin:24px 0 0}
+.aw-cap{display:block;font:400 13px/19px var(--sans);letter-spacing:.2px;color:var(--gray);margin:10px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.aw-cap--wrap{white-space:normal}
+
+/* ---------- צור קשר + פוטר באותו בלוק (מקור: 650): ריפוד 90, תווית x44, עמודות x272/603/934 ברוחב 331 ---------- */
+.ctb{display:flex;flex-direction:column;padding-top:90px}
+.ct-row{display:flex;align-items:flex-start}
+.ct-label{width:calc(272 / 1425 * 100%);padding-inline-start:calc(44 / 1425 * 100%);font:400 12px/14px var(--sans);letter-spacing:1px;color:var(--ink);margin:10px 0 0}
+.ct-col{width:calc(331 / 1425 * 100%)}
+.ct-col h3{font-family:var(--serif);font-weight:400;font-size:28px;line-height:34px;letter-spacing:.2px;color:var(--dark);margin:0 0 6px}
+.ct-v{font-family:var(--serif);font-weight:300;font-size:24px;line-height:29px;letter-spacing:.2px;color:var(--dark);margin:0}
+.ct-v a{text-decoration:none}
+.ct-v a:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.ct-s{font:400 12px/16px var(--sans);letter-spacing:.3px;color:var(--dark);margin:4px 0 16px}
+.ct-links{display:grid;gap:12px;justify-items:start;margin-top:26px}
+.site-footer{margin-top:auto;background:var(--taupe);color:#fff;padding:30px 0 0;min-height:147px}
+.ft-row{display:flex;align-items:flex-start}
+.ft-brand{width:calc(272 / 1425 * 100%);padding-inline-start:calc(78 / 1425 * 100%);display:grid;justify-items:start;text-decoration:none;color:#fff}
+.ft-brand>span{display:grid;justify-items:center}
+.ft-brand .mark{width:30px;height:36px}
+.ft-brand .mark svg{width:100%;height:100%}
+.ft-brand .name{font-family:var(--serif);font-weight:300;font-size:13px;letter-spacing:.28em;padding-inline-start:.28em;margin-top:10px;white-space:nowrap}
+.ft-brand .sub{font:400 9px/1 var(--sans);letter-spacing:.4em;padding-inline-start:.4em;margin-top:6px;color:rgba(255,255,255,.8)}
+.ft-col{width:calc(331 / 1425 * 100%);display:grid;gap:9px;justify-items:start;align-content:start}
+.ft-col a,.ft-col button,.ft-col span{font:400 13.5px/18px var(--sans);letter-spacing:.2px;color:#fff;text-decoration:none;background:none;border:0;padding:0;cursor:pointer;text-align:start}
+.ft-col a:hover,.ft-col button:hover{text-decoration:underline;text-underline-offset:3px}
+.ft-col span{color:rgba(255,255,255,.82)}
+.site-footer :focus-visible{outline-color:#fff}
+
+/* ---------- גבהים מדויקים כמו במקור (1440); מתחת — לפחות הגובה ---------- */
+@media (min-width:1440px){
+  .intro{height:1075px}
+  #rooms{height:926px}
+  #gallery{height:760px}
+  .band{height:216px}
+  #offers{height:1012px}
+  #reviews{height:1125px}
+  #info{height:444px}
+  .ctb{height:650px}
+  .site-footer{height:147px}
+}
+@media (min-width:1001px) and (max-width:1439px){
+  .intro{min-height:1075px}
+  #rooms{min-height:926px}
+  #offers{min-height:1012px}
+  #reviews{min-height:1125px}
+  #info{min-height:444px}
+  .ctb{min-height:650px}
+}
+
+/* תפריט נייד: כפתורים כמו הקישורים */
+.mnav-links button{display:block;width:100%;text-align:start;background:none;border:0;border-bottom:1px solid var(--line-soft);font-family:var(--serif);font-size:27px;letter-spacing:.06em;line-height:1.3;color:var(--ink);padding:13px 0;cursor:pointer}
+
+/* מודאלים: היסטוריה, מיקום, חוות דעת */
+.rm-tl{list-style:none;margin:26px 0 0;padding:22px 0 0;border-top:1px solid var(--line);display:grid;gap:14px}
+.rm-tl li{display:grid;grid-template-columns:132px 1fr;gap:16px;align-items:baseline;font-size:15px;line-height:1.55;color:var(--gray)}
+.rm-tl b{font-family:var(--serif);font-weight:400;font-size:19px;color:var(--ink)}
+.rm-h3{font-family:var(--serif);font-weight:400;font-size:21px;letter-spacing:.5px;color:var(--ink);margin:26px 0 10px}
+
+/* ---------- שכבות (הזמנה, חדר, תפריט) ---------- */
+.layer{position:fixed;inset:0;opacity:0;visibility:hidden;transition:opacity .45s var(--ease),visibility 0s linear .45s}
+.layer.is-open{opacity:1;visibility:visible;transition:opacity .45s var(--ease),visibility 0s}
+
+/* הזמנה */
+.bk{z-index:100;background:#fff;display:grid;grid-template-rows:auto auto minmax(0,1fr)}
+.bk-top{height:72px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;padding-inline:var(--gutter);border-bottom:1px solid var(--line)}
+.bk-top .bk-brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-size:13px;letter-spacing:.3em;white-space:nowrap;min-width:0}
+.bk-top .bk-brand .m{width:18px;height:22px;flex:none}
+.bk-top .bk-brand .m svg{width:100%;height:100%}
+.bk-title{font-family:var(--serif);font-weight:400;font-size:22px;letter-spacing:.14em;margin:0;text-align:center}
+.bk-close{justify-self:end;margin-inline-end:-10px}
+.bk-steps{display:flex;justify-content:center;gap:clamp(14px,4.5vw,64px);list-style:none;margin:0;padding:14px var(--gutter);border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--blush-soft),#fff)}
+.bk-step{position:relative;background:none;border:0;padding:8px 0;font:400 14px/1 var(--sans);letter-spacing:.14em;color:var(--gray-2);cursor:pointer;white-space:nowrap}
+.bk-step .n{font-family:var(--serif);margin-inline-end:8px;letter-spacing:0}
+.bk-step::after{content:"";position:absolute;inset-inline:0;bottom:0;height:1px;background:var(--ink);transform:scaleX(0);transition:transform .45s var(--ease)}
+.bk-step[aria-current="step"]{color:var(--ink)}
+.bk-step[aria-current="step"]::after{transform:scaleX(1)}
+.bk-step.is-done{color:var(--ink)}
+.bk-step:disabled{cursor:default;opacity:.55}
+.bk-body{overflow-y:auto;overscroll-behavior:contain;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,390px);align-items:stretch}
+.bk-main{display:flex;flex-direction:column;min-width:0;padding:clamp(30px,4vw,56px) var(--gutter) 0}
+.bk-pane{flex:1 0 auto}
+.bk-h{font-family:var(--serif);font-weight:400;font-size:clamp(24px,2.2vw,32px);letter-spacing:.06em;line-height:1.2;margin:0 0 8px;outline:none}
+.bk-hint{margin:0 0 28px;font-size:15.5px;color:var(--gray)}
+.bk-msg{min-height:24px;margin:14px 0 0;font-size:14.5px;color:#8a4b3a}
+.bk-actions{position:sticky;bottom:0;z-index:2;display:flex;align-items:center;gap:16px;margin-top:44px;padding:16px 0 calc(16px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid var(--line)}
+.bk-actions .sum{flex:1;min-width:0;font-size:14.5px;line-height:1.5;color:var(--gray)}
+.bk-side{border-inline-start:1px solid var(--line);background:var(--blush-soft)}
+.bk-side-in{position:sticky;top:0;padding:clamp(30px,3vw,46px) clamp(24px,2.6vw,40px)}
+.side-title{font-family:var(--serif);font-weight:400;font-size:24px;letter-spacing:.08em;margin:0 0 22px}
+.side-list{display:grid;grid-template-columns:auto 1fr;gap:12px 20px;margin:0;padding:0 0 22px;border-bottom:1px solid var(--line)}
+.side-list dt{font-size:12.5px;letter-spacing:.16em;color:var(--gray);padding-top:3px}
+.side-list dd{margin:0;font-family:var(--serif);font-size:17.5px;line-height:1.45}
+.side-total{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:20px 0 6px}
+.side-total span{font-size:13px;letter-spacing:.14em;color:var(--gray)}
+.side-total b{font-family:var(--serif);font-weight:400;font-size:32px;letter-spacing:.02em}
+.price-note{font-size:12.5px;line-height:1.65;color:var(--gray);margin:6px 0 22px}
+.perks{list-style:none;margin:24px 0 0;padding:20px 0 0;border-top:1px solid var(--line);display:grid;gap:10px}
+.perks li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.5}
+.perks svg{width:16px;height:16px;flex:none;margin-top:3px;color:var(--taupe-dark)}
+
+/* לוח שנה */
+.cal-nav{display:flex;align-items:center;justify-content:space-between;margin:6px 0 10px}
+.cal-nav .icon-btn{border:1px solid var(--line);border-radius:50%;width:40px;height:40px}
+.cal-nav .icon-btn:hover:not(:disabled){border-color:var(--ink)}
+.cal-nav .icon-btn:disabled{opacity:.3;cursor:default}
+.cal-nav .icon-btn svg{width:16px;height:16px}
+.cal-sel{font-family:var(--serif);font-size:18px;letter-spacing:.02em;text-align:center}
+.cal-months{display:grid;grid-template-columns:repeat(var(--cal-cols,2),minmax(0,1fr));gap:clamp(28px,4vw,64px)}
+.cal-title{font-family:var(--serif);font-size:19px;letter-spacing:.1em;text-align:center;margin:0 0 14px}
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));row-gap:3px}
+.cal-dow{font-size:12px;letter-spacing:.08em;color:var(--gray-2);text-align:center;padding-bottom:10px}
+.day{position:relative;height:46px;border:0;background:none;padding:0;font:400 15.5px/1 var(--sans);color:var(--ink);cursor:pointer;transition:background-color .2s}
+.day:hover:not(:disabled){box-shadow:inset 0 0 0 1px var(--ink)}
+.day:disabled{color:#C9C9C9;cursor:default}
+.day.is-range,.day.is-preview{background:#F2E8E2}
+.day.is-preview{background:#F7F0EC}
+.day.is-start,.day.is-end{background:var(--ink);color:#fff}
+.day.is-today::after{content:"";position:absolute;bottom:7px;left:50%;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--taupe)}
+.day.is-start.is-today::after,.day.is-end.is-today::after{background:#fff}
+
+/* אורחים */
+.g-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;padding:24px 0;border-bottom:1px solid var(--line);max-width:600px}
+.g-row:first-child{border-top:1px solid var(--line)}
+.g-name{font-family:var(--serif);font-size:23px;letter-spacing:.04em}
+.stepper{display:flex;align-items:center;gap:16px}
+.stepper button{width:42px;height:42px;border-radius:50%;border:1px solid var(--ink);background:#fff;display:grid;place-items:center;cursor:pointer;padding:0;transition:background-color .25s,color .25s}
+.stepper button:hover:not(:disabled){background:var(--ink);color:#fff}
+.stepper button:disabled{border-color:var(--line);color:#C9C9C9;cursor:default}
+.stepper button svg{width:16px;height:16px}
+.stepper output{min-width:26px;text-align:center;font-family:var(--serif);font-size:24px}
+.g-note{max-width:600px;margin:22px 0 0;font-size:15px;line-height:1.7;color:var(--gray)}
+.g-note a{color:var(--ink)}
+
+/* חדרים בהזמנה */
+.bk-rooms{border-top:1px solid var(--line)}
+.bk-room{position:relative;display:grid;grid-template-columns:minmax(150px,210px) minmax(0,1fr) auto;gap:clamp(16px,2.4vw,30px);align-items:center;padding:24px 0;border-bottom:1px solid var(--line);transition:background-color .35s var(--ease)}
+.bk-room.is-selected{background:linear-gradient(90deg,#fff,var(--blush-soft))}
+.bk-room.is-selected::before{content:"";position:absolute;inset-block:0;inset-inline-start:-14px;width:2px;background:var(--taupe)}
+.bk-room .frame{aspect-ratio:4/3}
+.bk-room h4{font-family:var(--serif);font-weight:400;font-size:24px;letter-spacing:.05em;margin:0 0 4px}
+.bk-room .meta{font-size:14.5px;color:var(--gray);margin:0}
+.bk-room .feat{font-size:13.5px;line-height:1.6;color:var(--gray);margin:8px 0 10px}
+.bk-room .link{font-size:13.5px}
+.bk-price{display:grid;justify-items:end;text-align:end;gap:2px;min-width:170px}
+.bk-price .from{font-size:12.5px;letter-spacing:.14em;color:var(--gray)}
+.bk-price .amt{font-family:var(--serif);font-size:30px;line-height:1.1}
+.bk-price .tot{font-size:13.5px;color:var(--gray);margin-bottom:12px}
+.bk-hidden-note{font-size:14px;color:var(--gray);margin:18px 0 0}
+
+/* סיכום */
+.sum-list{display:grid;grid-template-columns:auto 1fr;gap:14px 32px;margin:0;padding:26px 0;border-block:1px solid var(--line);max-width:640px}
+.sum-list dt{font-size:13px;letter-spacing:.16em;color:var(--gray);padding-top:3px}
+.sum-list dd{margin:0;font-family:var(--serif);font-size:20px;line-height:1.4}
+.sum-total{display:flex;align-items:baseline;justify-content:space-between;gap:16px;max-width:640px;padding:22px 0 4px}
+.sum-total span{font-size:13px;letter-spacing:.16em;color:var(--gray)}
+.sum-total b{font-family:var(--serif);font-weight:400;font-size:36px}
+.sum-form{display:grid;grid-template-columns:1fr 1fr;gap:22px 28px;max-width:640px;margin:28px 0 34px}
+.field{display:grid;gap:6px}
+.field.wide{grid-column:1/-1}
+.field label{font-size:12.5px;letter-spacing:.16em;color:var(--gray)}
+.field input,.field textarea{width:100%;border:0;border-bottom:1px solid var(--ink);background:transparent;padding:10px 0;font:400 17px/1.5 var(--sans);color:var(--ink);border-radius:0;resize:vertical}
+.field input:focus,.field textarea:focus{outline:none;border-bottom-width:2px;padding-bottom:9px}
+.cta-stack{display:grid;gap:12px;max-width:440px}
+.cta-note{font-size:13.5px;line-height:1.6;color:var(--gray);margin:2px 0 6px}
+.cta-alt{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin-top:8px}
+
+/* מודאל חדר / גלריה */
+.rm{z-index:120;display:grid;place-items:center;padding:clamp(0px,3vw,44px)}
+.rm-backdrop{position:absolute;inset:0;background:rgba(27,36,45,.62)}
+.rm-card{position:relative;background:#fff;width:min(1200px,100%);max-height:100%;overflow:auto;overscroll-behavior:contain;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);transform:translateY(18px);transition:transform .55s var(--ease)}
+.rm.is-open .rm-card{transform:none}
+.rm-close{position:absolute;top:12px;inset-inline-end:12px;z-index:3;background:rgba(255,255,255,.94);border-radius:50%}
+.rm-gallery{background:var(--ink);display:flex;flex-direction:column;min-width:0}
+.rm-stage{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--ink-deep)}
+.rm-stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .35s var(--ease)}
+.rm-stage img.is-fading{opacity:0}
+.rm-ctrl{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;color:#fff;font-size:13px;letter-spacing:.18em}
+.rm-ctrl .icon-btn svg{width:18px;height:18px}
+.rm-thumbs{display:flex;gap:8px;padding:0 12px 12px;overflow-x:auto;scrollbar-width:thin}
+.rm-thumb{flex:none;width:76px;height:56px;padding:0;border:0;background:var(--ink-deep);cursor:pointer;opacity:.5;transition:opacity .3s;position:relative}
+.rm-thumb img{width:100%;height:100%;object-fit:cover}
+.rm-thumb[aria-current="true"]{opacity:1;outline:1px solid #fff;outline-offset:2px}
+.rm-thumb:hover{opacity:.9}
+.rm-info{padding:clamp(30px,4vw,56px)}
+.rm-info .display{margin:0 0 6px}
+.rm-sub{font-family:var(--serif);font-size:19px;color:var(--gray-2);margin:0 0 22px;letter-spacing:.02em}
+.rm-meta{font-size:13.5px;letter-spacing:.14em;color:var(--gray);margin:0 0 22px}
+.rm-feat{list-style:none;padding:20px 0;margin:24px 0;border-block:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}
+.rm-feat li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.5}
+.rm-feat svg{width:15px;height:15px;flex:none;margin-top:4px;color:var(--taupe-dark)}
+.rm-price{font-family:var(--serif);font-size:26px;margin:0}
+.rm-price s{font-size:18px;color:var(--gray-2);margin-inline-start:8px}
+.rm-card.is-gallery{grid-template-columns:1fr;width:min(1320px,100%);background:var(--ink)}
+.rm-card.is-gallery .rm-info{display:none}
+.rm-card.is-gallery .rm-stage{aspect-ratio:auto;height:min(76vh,820px)}
+.rm-card.is-gallery .rm-stage img{object-fit:contain}
+.rm-caption{color:rgba(255,255,255,.75);font-size:13.5px;letter-spacing:.08em;padding:0 12px 12px;margin:0;text-align:center}
+
+/* תפריט נייד */
+.mnav{z-index:90;background:#fff;display:flex;flex-direction:column;padding:0 var(--gutter) calc(28px + env(safe-area-inset-bottom));overflow-y:auto}
+.mnav-top{display:flex;align-items:center;justify-content:space-between;height:var(--hdr-top);flex:none}
+.mnav-top .brand{padding:0}
+.mnav-links{list-style:none;margin:16px 0 0;padding:0}
+.mnav-links a{display:block;font-family:var(--serif);font-size:27px;letter-spacing:.06em;line-height:1.3;color:var(--ink);text-decoration:none;padding:13px 0;border-bottom:1px solid var(--line-soft)}
+.mnav-foot{margin-top:auto;padding-top:32px;display:grid;gap:12px}
+.mnav-foot .contact{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:15px;color:var(--gray)}
+.mnav-foot .contact a{text-decoration:none}
+
+/* חשיפה בגלילה */
+.rv{opacity:0;transform:translateY(24px);transition:opacity 1.15s var(--ease),transform 1.15s var(--ease)}
+.rv.is-in{opacity:1;transform:none}
+/* ---------- רספונסיבי ---------- */
+@media (max-width:1180px){
+  .bk-body{grid-template-columns:minmax(0,1fr) 330px}
+  .band__art{display:none}
+}
+@media (max-width:1000px){
+  :root{--hdr-top:60px;--hdr-nav:0px;--hdr-band:22px}
+  .hdr-nav,.hdr-top>.hdr-lang,.hdr-top>.hdr-a{display:none}
+  .hdr-top{display:flex;align-items:center;justify-content:space-between;padding-inline:var(--gutter)}
+  .hdr-top>.btn--hdr{position:static;transform:none}
+  .hdr-burger{display:inline-grid;margin-inline-start:-10px}
+  .btn--hdr{min-height:36px;padding:8px 16px;font-size:13.5px}
+  .btn--hdr .long{display:none}
+  .btn--hdr .short{display:inline}
+  .bk-body{grid-template-columns:minmax(0,1fr)}
+  .bk-side{display:none}
+
+  .cp{padding-inline:var(--gutter)}
+  .sec{margin-top:72px}
+  .intro__head,.intro__tag,.intro__para,.acc-head .h-xl,.c-large,.c-small,.room-row .rn,.room-row .rc{margin-inline:0}
+  .intro__row,.acc-head,.room-row{display:block;min-height:0}
+  .intro__row{margin-top:36px}
+  .intro__tag,.intro__para,.acc-head .para,.room-row .rn,.room-row .rc{width:auto}
+  .intro__para,.acc-head .para{margin-top:22px;max-width:620px}
+  .collage{display:block;margin-top:56px}
+  .c-large{width:auto}
+  .c-small{width:48%;margin-inline-start:auto;margin-top:-11%;position:relative;z-index:1;border:8px solid #fff;border-bottom:0;background:#fff}
+  .tabs{margin-top:34px;gap:10px 22px}
+  .room-figure{width:auto}
+  .room-row{margin-top:26px}
+  .room-row .rc{margin-top:14px}
+  .sl-frame{width:auto;aspect-ratio:3/2}
+  .band .cp{flex-direction:column;align-items:stretch;min-height:0}
+  .band__h{position:static;transform:none;width:auto;margin:0 0 16px}
+  .band__body{width:auto}
+  .of .cp,.aw .cp{padding-inline:var(--gutter)}
+  .of-track{grid-auto-columns:minmax(260px,46%);margin-top:36px}
+  .of-dots{margin-top:36px}
+  .aw-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;row-gap:44px;padding-inline-start:0;margin-top:32px}
+  .ctb{padding-top:72px}
+  .ct-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 28px}
+  .ct-label,.ct-col{width:auto;padding-inline:0}
+  .ct-label{grid-column:1/-1;margin:0}
+  .site-footer{margin-top:64px;padding:30px 0 34px}
+  .ft-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px}
+  .ft-brand,.ft-col{width:auto;padding-inline:0}
+  .ft-brand{grid-column:1/-1}
+}
+@media (max-width:900px){
+  .rm-card{grid-template-columns:minmax(0,1fr);max-height:100%;height:100%}
+  .rm{padding:0}
+  .rm-card.is-gallery .rm-stage{height:min(62vh,560px)}
+}
+@media (max-width:760px){
+  .bk-room{grid-template-columns:minmax(0,1fr);gap:16px}
+  .bk-room .frame{aspect-ratio:16/9}
+  .bk-price{justify-items:start;text-align:start;grid-template-columns:auto auto;align-items:baseline;column-gap:10px}
+  .bk-price .from{grid-column:1/-1}
+  .bk-price .tot{grid-column:1/-1}
+  .bk-price .btn{grid-column:1/-1;justify-self:start}
+  .bk-room.is-selected::before{inset-inline-start:-10px}
+  .sum-form{grid-template-columns:minmax(0,1fr)}
+  .bk-top .bk-brand .t{display:none}
+}
+@media (max-width:640px){
+  .of-track{grid-auto-columns:82%}
+  .aw-grid{grid-template-columns:minmax(0,1fr)}
+  .ct-row{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .hero__line{bottom:88px;font-size:17px}
+  .hero__gallery{inset-inline:0;margin-inline:auto;width:max-content;bottom:36px}
+  .hero__name{letter-spacing:.14em;padding-inline-start:.14em}
+  .hero__sub{letter-spacing:.34em;padding-inline-start:.34em}
+  .band__h{font-size:32px;line-height:38px}
+  .band__txt{font-size:20px;line-height:27px}
+  .ct-col h3{font-size:25px;line-height:31px}
+  .ct-v{font-size:21px;line-height:27px}
+  .bk-step:not([aria-current="step"]) .lbl{display:none}
+  .bk-step:not([aria-current="step"]) .n{margin:0}
+  .cal-nav .cal-sel{font-size:15.5px}
+  .day{height:42px}
+  .bk-actions{flex-wrap:wrap}
+  .bk-actions .sum{flex-basis:100%;order:-1}
+  .bk-actions .btn{flex:1}
+  .rm-feat{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
+  .hero__img{transform:none}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">דילוג לתוכן הראשי</a>
+
+<section class="hero" id="page-top" aria-label="בית קטן בבקעה, ירושלים">
+  <img class="hero__img" src="../img/lounge.jpg" alt="" fetchpriority="high">
+  <div class="hero__brand" aria-hidden="true">
+    <span class="hero__mark" data-mark></span>
+    <p class="hero__name">בית קטן</p>
+    <p class="hero__sub">בבקעה · ירושלים</p>
+  </div>
+  <p class="hero__line" id="heroLine"></p>
+  <button class="hero__gallery" type="button" data-gallery>צפייה בגלריה</button>
+</section>
+
+<header class="site-header" id="siteHeader">
+  <div class="hdr-rows">
+    <div class="hdr-top">
+      <button class="icon-btn hdr-burger" type="button" aria-label="פתיחת תפריט" aria-controls="mnav" aria-expanded="false" data-mnav-open data-icon="menu"></button>
+      <div class="lang hdr-lang">
+        <button class="lang__btn" type="button" aria-expanded="false" aria-controls="langMenu">עברית<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg></button>
+        <ul class="lang__menu" id="langMenu" hidden>
+          <li><span aria-current="true">עברית</span></li>
+          <li><a href="https://bakah.jerusalem-hotel.co.il/index.php?language=eng" target="_blank" rel="noopener" lang="en" dir="ltr">English</a></li>
+        </ul>
+      </div>
+      <a class="hdr-a hdr-a--1" href="#story">המלון</a>
+      <a class="brand" href="#page-top" aria-label="בית קטן בבקעה — לראש העמוד"><span class="brand__mark" data-mark></span></a>
+      <a class="hdr-a hdr-a--2" href="#gallery">חוויות</a>
+      <button class="btn btn--taupe btn--hdr" type="button" data-book><span class="long">הזמינו שהות</span><span class="short">הזמנה</span></button>
+    </div>
+    <nav class="hdr-nav" aria-label="ניווט ראשי">
+      <a href="#story" data-spy="story">סיפור</a>
+      <a href="#rooms" data-spy="rooms">חדרים</a>
+      <a href="#rooms" data-room-tab="family">יחידה משפחתית</a>
+      <button type="button" data-service="breakfast">ארוחת בוקר</button>
+      <button type="button" data-service="garden">הגן</button>
+      <button type="button" data-service="hall">אולם</button>
+      <button type="button" data-service="shabbat">שבת</button>
+      <a href="#offers" data-spy="offers">הצעות</a>
+      <a href="#contact" data-spy="contact">צור קשר</a>
+    </nav>
+  </div>
+  <div class="hdr-band" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+
+  <!-- מבוא -->
+  <section class="intro" id="story" aria-labelledby="storyTitle">
+    <div class="cp">
+      <h1 class="h-xl intro__head rv" id="storyTitle">בית קטן בבקעה</h1>
+      <div class="intro__row">
+        <p class="tagline intro__tag rv">תנו לירושלים להאט את הקצב.</p>
+        <div class="intro__para rv">
+          <div class="para" id="introCopy"></div>
+          <button class="tlink" type="button" data-history>לסיפור הבית</button>
+        </div>
+      </div>
+      <div class="collage">
+        <figure class="c-large rv"><p class="label">בית קטן בבקעה</p><div class="frame img-hover" id="collageLarge"></div></figure>
+        <figure class="c-small rv"><div class="frame img-hover" id="collageSmall"></div><figcaption class="sr-only" id="collageCaption"></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- חדרים -->
+  <section class="sec" id="rooms" aria-labelledby="roomsTitle">
+    <div class="cp">
+      <div class="acc-head">
+        <h2 class="h-xl rv" id="roomsTitle">חדרים</h2>
+        <p class="para rv" id="roomsCopy"></p>
+      </div>
+      <div class="tabs rv" role="tablist" aria-label="סוגי חדרים" id="roomTabs"></div>
+      <div class="room-panel rv" role="tabpanel" id="roomPanel" tabindex="0">
+        <figure class="frame room-figure img-hover"><img id="roomImg" src="" alt=""></figure>
+        <div class="room-row">
+          <div class="rn">
+            <h3 id="roomName"></h3>
+          </div>
+          <div class="rc">
+            <p class="para" id="roomSummary"></p>
+            <div class="rlinks">
+              <button class="tlink" type="button" id="roomDetailsBtn" data-details="">לפרטים נוספים</button>
+              <button class="tlink" type="button" id="roomBookBtn" data-book data-room="">הזמנת חדר זה</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- גלריה: חוויות הבית -->
+  <section class="sec" id="gallery" aria-label="חוויות הבית — גלריה">
+    <div class="cp">
+      <div class="sl-frame rv" id="slFrame" tabindex="0" aria-roledescription="קרוסלה" aria-label="חוויות הבית">
+        <button class="sl-arrow sl-prev" type="button" id="slPrev" aria-label="התמונה הקודמת" data-icon="arrowR"></button>
+        <button class="sl-arrow sl-next" type="button" id="slNext" aria-label="התמונה הבאה" data-icon="arrowL"></button>
+        <button class="sr-only" type="button" id="slMore"></button>
+      </div>
+      <div class="sl-dots" id="slDots" role="group" aria-label="בחירת תמונה"></div>
+    </div>
+  </section>
+
+  <!-- הזמינו שהות -->
+  <section class="sec band" id="book" aria-labelledby="bookTitle">
+    <div class="cp">
+      <h2 class="band__h" id="bookTitle">הזמינו את השהות</h2>
+      <div class="band__body">
+        <p class="band__txt">הזמנה ישירה באתר — במחיר הנמוך ביותר, עם 5% הנחה נוספת, חניה חינם וביטול גמיש.</p>
+        <button class="tlink" type="button" data-book>להזמנה</button>
+      </div>
+      <span class="band__art" data-mark aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- הצעות -->
+  <section class="sec of" id="offers" aria-labelledby="offersTitle">
+    <div class="cp">
+      <div class="of-head">
+        <h2 class="h-xl rv" id="offersTitle">הצעות</h2>
+        <div class="of-ctrl rv" aria-label="ניווט בהצעות">
+          <button class="icon-btn" type="button" id="ofPrev" aria-label="ההצעה הקודמת" data-icon="arrowR"></button>
+          <span class="count" id="ofCount" aria-live="polite"></span>
+          <button class="icon-btn" type="button" id="ofNext" aria-label="ההצעה הבאה" data-icon="arrowL"></button>
+        </div>
+      </div>
+      <div class="of-track rv" id="ofTrack" tabindex="0" aria-label="הצעות להזמנה ישירה"></div>
+      <div class="of-dots" id="ofDots" role="group" aria-label="מעבר בין ההצעות"></div>
+    </div>
+  </section>
+
+  <!-- ממליצים (רכיב "הפרסים" של המקור) -->
+  <section class="sec aw" id="reviews" aria-labelledby="revTitle">
+    <div class="cp">
+      <h2 class="h-xl rv" id="revTitle">ממליצים</h2>
+      <div class="aw-grid" id="awGrid"></div>
+    </div>
+  </section>
+
+  <!-- מידע ומדיניות (רכיב "בריאות וקיימות" של המקור) -->
+  <section class="sec aw" id="info" aria-labelledby="infoTitle">
+    <div class="cp">
+      <h2 class="h-xl rv" id="infoTitle">מידע ומדיניות</h2>
+      <div class="aw-grid aw-grid--2" id="hsGrid"></div>
+    </div>
+  </section>
+
+  <!-- צור קשר + פוטר (בלוק אחד, כמו במקור) -->
+  <section class="ctb" id="contact" aria-labelledby="ctTitle">
+    <div class="cp">
+      <div class="ct-row">
+        <h2 class="ct-label" id="ctTitle">צור קשר</h2>
+        <div class="ct-col">
+          <h3>בית קטן בבקעה</h3>
+          <p class="ct-s" id="ctSub"></p>
+          <p class="ct-v" id="ctAddress"></p>
+          <div class="ct-links">
+            <button class="tlink" type="button" data-location>הוראות הגעה ומיקום</button>
+            <button class="tlink" type="button" data-gallery>צפייה בגלריה</button>
+          </div>
+        </div>
+        <div class="ct-col">
+          <h3>טלפון</h3>
+          <p class="ct-v"><a id="ctPhone" href="#"></a></p>
+          <p class="ct-s" style="margin-top:14px">WhatsApp</p>
+          <p class="ct-v"><a id="ctWa" href="#" target="_blank" rel="noopener"></a></p>
+        </div>
+        <div class="ct-col">
+          <h3>דוא״ל</h3>
+          <p class="ct-v"><a id="ctMail" href="#" dir="ltr"></a></p>
+          <div class="ct-links">
+            <a class="tlink" id="ctFb" href="#" target="_blank" rel="noopener">Facebook</a>
+            <a class="tlink" id="ctYt" href="#" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer" aria-label="קישורים ופרטים">
+      <div class="cp ft-row">
+        <a class="ft-brand" href="#page-top" aria-label="בית קטן בבקעה — לראש העמוד"><span><span class="mark" data-mark></span><span class="name">בית קטן בבקעה</span><span class="sub">ירושלים</span></span></a>
+        <nav class="ft-col" aria-label="ניווט באתר">
+          <a href="#story">הסיפור שלנו</a>
+          <a href="#rooms">חדרים</a>
+          <a href="#gallery">חוויות</a>
+          <a href="#offers">הצעות</a>
+        </nav>
+        <div class="ft-col">
+          <a href="#reviews">ממליצים</a>
+          <a href="#info">מידע ומדיניות</a>
+          <button type="button" data-location>הוראות הגעה</button>
+          <a href="https://bakah.jerusalem-hotel.co.il/index.php?language=eng" target="_blank" rel="noopener" lang="en" dir="ltr">English</a>
+        </div>
+        <div class="ft-col">
+          <a id="ftPhone" href="#"></a>
+          <a id="ftWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+          <a id="ftMail" href="#" dir="ltr"></a>
+          <span id="ftCopy"></span>
+        </div>
+      </div>
+    </footer>
+  </section>
+</main>
+
+<!-- הזמנה -->
+<div class="layer bk" id="booking" role="dialog" aria-modal="true" aria-labelledby="bkTitle" aria-hidden="true" inert>
+  <div class="bk-top">
+    <div class="bk-brand"><span class="m" data-mark></span><span class="t">בית קטן בבקעה</span></div>
+    <h2 class="bk-title" id="bkTitle">הזמינו שהות</h2>
+    <button class="icon-btn bk-close" type="button" aria-label="סגירת ההזמנה" data-icon="close" data-close-layer></button>
+  </div>
+  <ol class="bk-steps" id="bkSteps"></ol>
+  <div class="bk-body" id="bkBody">
+    <div class="bk-main">
+      <section class="bk-pane" data-pane="0" aria-labelledby="bkH0">
+        <h3 class="bk-h" id="bkH0" tabindex="-1">מתי מגיעים?</h3>
+        <p class="bk-hint">בחרו תאריך הגעה ותאריך עזיבה.</p>
+        <div class="cal-nav">
+          <button class="icon-btn" type="button" id="calPrev" aria-label="החודש הקודם" data-icon="arrowR"></button>
+          <div class="cal-sel" id="calSel" aria-live="polite"></div>
+          <button class="icon-btn" type="button" id="calNext" aria-label="החודש הבא" data-icon="arrowL"></button>
+        </div>
+        <div class="cal-months" id="calMonths"></div>
+        <p class="bk-msg" id="calMsg" role="status"></p>
+      </section>
+      <section class="bk-pane" data-pane="1" aria-labelledby="bkH1" hidden>
+        <h3 class="bk-h" id="bkH1" tabindex="-1">מי מגיע?</h3>
+        <p class="bk-hint">ההתאמה לסוגי החדרים מחושבת לפי מספר המבוגרים והילדים.</p>
+        <div id="guestRows"></div>
+        <p class="g-note" id="guestNote" aria-live="polite"></p>
+      </section>
+      <section class="bk-pane" data-pane="2" aria-labelledby="bkH2" hidden>
+        <h3 class="bk-h" id="bkH2" tabindex="-1">בחירת חדר</h3>
+        <p class="bk-hint" id="roomsHint"></p>
+        <div class="bk-rooms" id="bkRooms"></div>
+        <p class="bk-hidden-note" id="bkRoomsHidden"></p>
+        <p class="price-note" id="bkRoomsNote"></p>
+      </section>
+      <section class="bk-pane" data-pane="3" aria-labelledby="bkH3" hidden>
+        <h3 class="bk-h" id="bkH3" tabindex="-1">סיכום ההזמנה</h3>
+        <p class="bk-hint">בדקו את הפרטים והמשיכו להזמנה המאובטחת במנוע ההזמנות של המלון.</p>
+        <dl class="sum-list" id="sumList"></dl>
+        <div class="sum-total" id="sumTotal"></div>
+        <p class="price-note" id="sumNote"></p>
+        <div class="sum-form">
+          <div class="field"><label for="bkName">שם (לבקשה בוואטסאפ)</label><input id="bkName" type="text" autocomplete="name"></div>
+          <div class="field wide"><label for="bkNotes">בקשות מיוחדות</label><textarea id="bkNotes" rows="2" placeholder="מיטה זוגית או מיטות נפרדות, עזיבה מאוחרת…"></textarea></div>
+        </div>
+        <div class="cta-stack">
+          <button class="btn btn--taupe btn--block" type="button" data-action="ezgo">המשך להזמנה מאובטחת</button>
+          <p class="cta-note">תועברו למנוע ההזמנות של המלון, עם התאריכים וההרכב שבחרתם, להשלמת ההזמנה.</p>
+          <a class="btn btn--block" id="waBtn" href="#" target="_blank" rel="noopener"><span data-icon-inline="whatsapp"></span>שליחת בקשה בוואטסאפ</a>
+          <div class="cta-alt"><a class="link" id="bkPhone" href="#"></a><a class="link" id="bkMail" href="#">או בדוא״ל</a></div>
+        </div>
+      </section>
+      <div class="bk-actions">
+        <button class="btn btn--sm" type="button" id="bkBack">חזרה</button>
+        <div class="sum" id="bkSum"></div>
+        <button class="btn btn--sm btn--ink" type="button" id="bkNext">המשך</button>
+      </div>
+    </div>
+    <aside class="bk-side" aria-label="סיכום ההזמנה">
+      <div class="bk-side-in" id="bkSide"></div>
+    </aside>
+  </div>
+</div>
+
+<!-- מודאל חדר / גלריה -->
+<div class="layer rm" id="roomModal" role="dialog" aria-modal="true" aria-labelledby="rmTitle" aria-hidden="true" inert>
+  <div class="rm-backdrop" data-close-layer></div>
+  <div class="rm-card" id="rmCard">
+    <button class="icon-btn rm-close" type="button" aria-label="סגירה" data-icon="close" data-close-layer></button>
+    <div class="rm-gallery">
+      <div class="rm-stage"><img id="rmImg" src="" alt=""></div>
+      <div class="rm-ctrl">
+        <button class="icon-btn" type="button" data-rm-step="-1" aria-label="התמונה הקודמת" data-icon="arrowR"></button>
+        <span id="rmCount" aria-live="polite"></span>
+        <button class="icon-btn" type="button" data-rm-step="1" aria-label="התמונה הבאה" data-icon="arrowL"></button>
+      </div>
+      <p class="rm-caption" id="rmCaption"></p>
+      <div class="rm-thumbs" id="rmThumbs"></div>
+    </div>
+    <div class="rm-info" id="rmInfo"></div>
+  </div>
+</div>
+
+<!-- תפריט נייד -->
+<div class="layer mnav" id="mnav" role="dialog" aria-modal="true" aria-label="תפריט" aria-hidden="true" inert>
+  <div class="mnav-top">
+    <a class="brand" href="#page-top" data-mnav-link><span class="brand__mark" data-mark></span><span class="sr-only">בית קטן בבקעה</span></a>
+    <button class="icon-btn" type="button" aria-label="סגירת התפריט" data-icon="close" data-close-layer></button>
+  </div>
+  <ul class="mnav-links">
+    <li><a href="#story" data-mnav-link>סיפור</a></li>
+    <li><a href="#rooms" data-mnav-link>חדרים</a></li>
+    <li><a href="#rooms" data-mnav-link data-room-tab="family">יחידה משפחתית</a></li>
+    <li><button type="button" data-service="breakfast">ארוחת בוקר</button></li>
+    <li><button type="button" data-service="garden">הגן</button></li>
+    <li><button type="button" data-service="hall">אולם</button></li>
+    <li><button type="button" data-service="shabbat">שבת</button></li>
+    <li><a href="#offers" data-mnav-link>הצעות</a></li>
+    <li><button type="button" data-history>סיפור הבית</button></li>
+    <li><a href="#reviews" data-mnav-link>ממליצים</a></li>
+    <li><a href="#contact" data-mnav-link>צור קשר</a></li>
+    <li><button type="button" data-location>הוראות הגעה ומיקום</button></li>
+  </ul>
+  <div class="mnav-foot">
+    <button class="btn btn--taupe btn--block" type="button" data-book>הזמינו שהות</button>
+    <div class="contact"><a id="mnPhone" href="#"></a><a id="mnWa" href="#" target="_blank" rel="noopener">WhatsApp</a><a href="https://bakah.jerusalem-hotel.co.il/index.php?language=eng" target="_blank" rel="noopener" lang="en" dir="ltr">English</a></div>
+  </div>
+</div>
+
+<noscript><p style="padding:24px;text-align:center">לצפייה בתוכן האתר ולהזמנה יש להפעיל JavaScript, או להתקשר: 02-6737944</p></noscript>
+
+<script>
+(function () {
+  'use strict';
+  const B = window.BAKA;
+  if (!B) { document.getElementById('main').insertAdjacentHTML('afterbegin', '<p style="padding:40px;text-align:center">שגיאה בטעינת התוכן. התקשרו: 02-6737944</p>'); return; }
+
+  /* ---------- עזרים ---------- */
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const pic = (file, lazy = true) => `<img src="${B.img(file)}" alt="${esc(B.alt(file))}"${lazy ? ' loading="lazy" decoding="async"' : ''}>`;
+  const svc = (id) => B.services.find((s) => s.id === id);
+  const pad2 = (n) => String(n).padStart(2, '0');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const unitOf = (r) => (r.id === 'family' ? 'יחידות' : 'חדרים');
+  const fromPrice = (id) => B.nightlyPrice(id, 1, true);
+  const fromPriceFull = (id) => B.nightlyPrice(id, 1, false);
+
+  /* סמל: קשת ירושלמית וניצוץ */
+  const MARK = '<svg viewBox="0 0 40 48" fill="none" stroke="currentColor" stroke-width="1.15" aria-hidden="true"><path d="M5 46.5V19.5a15 15 0 0 1 30 0v27"/><path d="M10.5 46.5V20.4a9.5 9.5 0 0 1 19 0v26.1" stroke-width=".8"/><path d="M20 15.6l1.3 6.1 6.1 1.3-6.1 1.3-1.3 6.1-1.3-6.1-6.1-1.3 6.1-1.3z" fill="currentColor" stroke="none"/><path d="M1.5 46.5h37"/></svg>';
+  $$('[data-mark]').forEach((el) => { el.innerHTML = MARK; });
+  $$('[data-icon]').forEach((el) => { el.insertAdjacentHTML('afterbegin', B.icons[el.dataset.icon] || ''); });
+  $$('[data-icon-inline]').forEach((el) => { el.outerHTML = B.icons[el.dataset.iconInline] || ''; });
+
+  /* ---------- Hero ---------- */
+  $('#heroLine').textContent = `${B.roomsCount} חדרים בבית אבן מ${B.built.replace(' של המאה ה־20', '')} · שכונת ${B.neighborhood}`;
+
+  /* ---------- מבוא וקולאז׳ ---------- */
+  $('#introCopy').innerHTML = [B.intro[0], B.intro[2]].map((p) => `<p>${esc(p)}</p>`).join('');
+  $('#collageLarge').innerHTML = pic('facade-arches.jpg');
+  $('#collageSmall').innerHTML = pic('corridor.jpg');
+  $('#collageCaption').textContent = B.alt('corridor.jpg');
+  const H = B.history;
+  const L = B.location;
+
+  /* ---------- חדרים: לשוניות ---------- */
+  $('#roomsCopy').textContent = `${B.intro[1]} ליחידים, לזוגות ולמשפחות — חדרים עם תקרות של 4 מטרים, חלונות מקושתים ופריטי אבן עתיקים, וחלקם צופים לגינה פורחת.`;
+  const tabsEl = $('#roomTabs');
+  tabsEl.innerHTML = B.rooms.map((r, i) => `<button class="tab" type="button" role="tab" id="tab-${r.id}" data-room="${r.id}" aria-controls="roomPanel" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}">${esc(r.name)}</button>`).join('');
+  const roomImg = $('#roomImg');
+  let roomFadeTimer = 0;
+  function showRoomImage(file) {
+    if (roomImg.dataset.file === file) return;
+    const swap = () => { roomImg.src = B.img(file); roomImg.alt = B.alt(file); roomImg.dataset.file = file; };
+    if (reduceMotion.matches || !roomImg.dataset.file) { swap(); return; }
+    clearTimeout(roomFadeTimer);
+    roomImg.classList.add('is-fading');
+    roomFadeTimer = setTimeout(() => {
+      swap();
+      const done = () => roomImg.classList.remove('is-fading');
+      if (roomImg.complete) requestAnimationFrame(done); else roomImg.addEventListener('load', done, { once: true });
+    }, 260);
+  }
+  function setRoomTab(id, focusTab) {
+    const r = B.room(id); if (!r) return;
+    $$('.tab', tabsEl).forEach((t) => { const on = t.dataset.room === id; t.setAttribute('aria-selected', on); t.tabIndex = on ? 0 : -1; if (on && focusTab) t.focus(); });
+    $('#roomPanel').setAttribute('aria-labelledby', 'tab-' + id);
+    showRoomImage(r.images[0]);
+    $('#roomName').textContent = r.name;
+    $('#roomSummary').textContent = r.summary;
+    $('#roomDetailsBtn').dataset.details = id;
+    $('#roomBookBtn').dataset.room = id;
+  }
+  tabsEl.addEventListener('click', (e) => { const t = e.target.closest('.tab'); if (t) setRoomTab(t.dataset.room); });
+  tabsEl.addEventListener('keydown', (e) => {
+    const tabs = $$('.tab', tabsEl); const i = tabs.indexOf(document.activeElement); if (i < 0) return;
+    let n = null;
+    if (e.key === 'ArrowLeft') n = (i + 1) % tabs.length;          /* RTL: שמאלה = הבא */
+    else if (e.key === 'ArrowRight') n = (i - 1 + tabs.length) % tabs.length;
+    else if (e.key === 'Home') n = 0; else if (e.key === 'End') n = tabs.length - 1;
+    if (n !== null) { e.preventDefault(); setRoomTab(tabs[n].dataset.room, true); }
+  });
+  setRoomTab(B.rooms[0].id);
+  window.addEventListener('load', () => { B.rooms.forEach((r) => { const im = new Image(); im.src = B.img(r.images[0]); }); });
+  $$('[data-room-tab]').forEach((a) => a.addEventListener('click', () => setRoomTab(a.dataset.roomTab)));
+
+  /* ---------- גלריה: 5 שקופיות (כמו במקור) — חוויות הבית; לחיצה פותחת את הפרטים ---------- */
+  const SLIDES = [['garden', 'garden-umbrellas.jpg'], ['breakfast', 'breakfast.jpg'], ['shabbat', 'wine.jpg'], ['hall', 'hall-lecture.jpg'], ['coffee', 'sitting-corner.jpg']];
+  const slFrame = $('#slFrame');
+  slFrame.insertAdjacentHTML('afterbegin', SLIDES.map(([id, f], i) => `<img src="${B.img(f)}" alt="${esc(svc(id).title)} — ${esc(B.alt(f))}" data-slide-service="${id}"${i ? ' loading="lazy" aria-hidden="true"' : ' class="is-on"'} decoding="async">`).join(''));
+  $('#slDots').innerHTML = SLIDES.map(([id], i) => `<button class="sl-dot" type="button" data-sl="${i}" aria-label="${esc(svc(id).title)} — תמונה ${i + 1} מתוך ${SLIDES.length}" aria-current="${i === 0}"></button>`).join('');
+  const slImgs = $$('img', slFrame);
+  let slIdx = 0;
+  function slGo(i) {
+    slIdx = (i + slImgs.length) % slImgs.length;
+    slImgs.forEach((im, k) => { im.classList.toggle('is-on', k === slIdx); if (k === slIdx) im.removeAttribute('aria-hidden'); else im.setAttribute('aria-hidden', 'true'); });
+    $$('.sl-dot', $('#slDots')).forEach((d, k) => d.setAttribute('aria-current', String(k === slIdx)));
+    const s = svc(SLIDES[slIdx][0]);
+    $('#slMore').textContent = `פרטים: ${s.title}`;
+    $('#slMore').dataset.service = s.id;
+  }
+  $('#slNext').addEventListener('click', () => slGo(slIdx + 1));
+  $('#slPrev').addEventListener('click', () => slGo(slIdx - 1));
+  $('#slDots').addEventListener('click', (e) => { const d = e.target.closest('[data-sl]'); if (d) slGo(Number(d.dataset.sl)); });
+  slFrame.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') { e.preventDefault(); slGo(slIdx + 1); } else if (e.key === 'ArrowRight') { e.preventDefault(); slGo(slIdx - 1); } });
+  let slTouch = null;
+  slFrame.addEventListener('touchstart', (e) => { slTouch = e.touches[0].clientX; }, { passive: true });
+  slFrame.addEventListener('touchend', (e) => { if (slTouch == null) return; const dx = e.changedTouches[0].clientX - slTouch; if (Math.abs(dx) > 40) slGo(slIdx + (dx > 0 ? 1 : -1)); slTouch = null; });
+  slGo(0);
+
+  /* ---------- הצעות: 5 הסיבות להזמין ישירות, 3 גלויות ---------- */
+  const REASON_IMG = ['exterior-old.jpg', 'double-4.jpg', 'twin.jpg', 'garden-seating.jpg', 'reception.jpg'];
+  const ofTrack = $('#ofTrack');
+  ofTrack.innerHTML = B.reasons.map((r, i) => `<article class="of-card"><div class="frame img-hover">${pic(REASON_IMG[i])}</div><h3>${esc(r.title)}</h3><p class="of-text">${esc(r.text)}</p><button class="tlink" type="button" data-book>להזמנה ישירה</button></article>`).join('');
+  const ofCards = $$('.of-card', ofTrack);
+  const ofDots = $('#ofDots');
+  ofDots.innerHTML = ofCards.map((c, k) => `<button class="sl-dot" type="button" data-of="${k}" aria-label="הצעה ${k + 1} מתוך ${ofCards.length}" aria-current="${k === 0}"></button>`).join('');
+  const ofStep = () => { const a = ofCards[0], b = ofCards[1]; return b ? Math.abs(b.getBoundingClientRect().left - a.getBoundingClientRect().left) : a.offsetWidth; };
+  ofDots.addEventListener('click', (e) => { const d = e.target.closest('[data-of]'); if (!d) return; ofTrack.scrollTo({ left: -Number(d.dataset.of) * ofStep(), behavior: reduceMotion.matches ? 'auto' : 'smooth' }); });
+  function ofUpdate() {
+    const max = ofTrack.scrollWidth - ofTrack.clientWidth;
+    const visible = Math.max(1, Math.round(ofTrack.clientWidth / ofStep()));
+    const i = Math.min(ofCards.length - 1, Math.round(Math.abs(ofTrack.scrollLeft) / ofStep()));
+    $('#ofCount').textContent = `${pad2(Math.min(ofCards.length, i + visible))} / ${pad2(ofCards.length)}`;
+    $$('.sl-dot', ofDots).forEach((d, k) => d.setAttribute('aria-current', String(k === i)));
+    $('#ofPrev').disabled = Math.abs(ofTrack.scrollLeft) < 4;
+    $('#ofNext').disabled = Math.abs(ofTrack.scrollLeft) >= max - 4;
+  }
+  const ofScroll = (dir) => ofTrack.scrollBy({ left: -dir * ofStep(), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+  $('#ofNext').addEventListener('click', () => ofScroll(1));
+  $('#ofPrev').addEventListener('click', () => ofScroll(-1));
+  let ofRaf = 0;
+  ofTrack.addEventListener('scroll', () => { cancelAnimationFrame(ofRaf); ofRaf = requestAnimationFrame(ofUpdate); }, { passive: true });
+  window.addEventListener('resize', ofUpdate);
+  ofUpdate();
+
+  /* ---------- ממליצים: 7 כרטיסים, 3 בשורה (כמו 7 הפרסים במקור); הטקסט המלא במודאל ---------- */
+  $('#awGrid').innerHTML = B.reviews.map((r, i) => `<button class="aw-card rv" type="button" data-review="${i}"><span class="aw-box" aria-hidden="true"><span class="aw-q">”</span></span><span class="aw-t">${esc(r.title)}</span><span class="aw-cap">${esc(r.text)}</span></button>`).join('');
+
+  /* ---------- מידע ומדיניות: 2 כרטיסים (כמו במקור) ---------- */
+  const noSmoke = B.highlights.find((h) => h.icon === 'nosmoking');
+  const cancel = B.reasons.find((r) => r.title.includes('ביטול'));
+  $('#hsGrid').innerHTML = [
+    { icon: 'nosmoking', title: noSmoke.title, text: noSmoke.text + '.' },
+    { icon: 'calendar', title: 'מדיניות ביטול', text: cancel.text }
+  ].map((x) => `<article class="aw-card rv"><div class="aw-box" aria-hidden="true">${B.icons[x.icon]}</div><h3>${esc(x.title)}</h3><p class="aw-cap aw-cap--wrap">${esc(x.text)}</p></article>`).join('');
+
+  /* ---------- צור קשר (שלוש העמודות של המקור) ---------- */
+  $('#ctSub').textContent = `מלון בוטיק · ${B.roomsCount} חדרים וסוויטות`;
+  $('#ctAddress').textContent = B.address;
+  $('#ctPhone').href = B.phoneHref; $('#ctPhone').textContent = B.phone;
+  $('#ctWa').href = B.whatsappUrl(); $('#ctWa').textContent = B.whatsapp;
+  $('#ctMail').href = 'mailto:' + B.email; $('#ctMail').textContent = B.email;
+  $('#ctFb').href = B.facebook; $('#ctYt').href = B.youtube;
+
+  /* ---------- פוטר ---------- */
+  $('#ftPhone').href = B.phoneHref; $('#ftPhone').textContent = B.phone;
+  $('#ftWa').href = B.whatsappUrl();
+  $('#ftMail').href = 'mailto:' + B.email; $('#ftMail').textContent = B.email;
+  $('#ftCopy').textContent = `© ${new Date().getFullYear()} ${B.name}`;
+  $('#mnPhone').href = B.phoneHref; $('#mnPhone').textContent = B.phone;
+  $('#mnWa').href = B.whatsappUrl();
+
+  /* ================= שכבות: פתיחה, סגירה, מלכודת פוקוס ================= */
+  let layers = [];
+  const FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),textarea:not([disabled]),select:not([disabled]),[tabindex]:not([tabindex="-1"])';
+  const focusables = (el) => $$(FOCUSABLE, el).filter((x) => x.offsetParent !== null || x === document.activeElement);
+  function openLayer(el, initialFocus) {
+    if (!layers.includes(el)) { el._returnFocus = document.activeElement; layers.push(el); }
+    el.removeAttribute('inert'); el.setAttribute('aria-hidden', 'false'); el.classList.add('is-open');
+    document.documentElement.classList.add('is-locked');
+    requestAnimationFrame(() => { const t = (typeof initialFocus === 'function' ? initialFocus() : initialFocus) || focusables(el)[0]; t && t.focus({ preventScroll: true }); });
+  }
+  function closeLayer(el) {
+    if (!layers.includes(el)) return;
+    layers = layers.filter((x) => x !== el);
+    el.classList.remove('is-open'); el.setAttribute('aria-hidden', 'true'); el.setAttribute('inert', '');
+    if (!layers.length) document.documentElement.classList.remove('is-locked');
+    if (el === mnav) $('[data-mnav-open]').setAttribute('aria-expanded', 'false');
+    const rf = el._returnFocus; el._returnFocus = null;
+    if (rf && document.contains(rf) && rf.offsetParent !== null) rf.focus({ preventScroll: true });
+  }
+  document.addEventListener('keydown', (e) => {
+    const top = layers[layers.length - 1];
+    if (e.key === 'Escape') {
+      if (top) { e.preventDefault(); closeLayer(top); return; }
+      if (!langMenu.hidden) { toggleLang(false); langBtn.focus(); }
+      return;
+    }
+    if (e.key === 'Tab' && top) {
+      const f = focusables(top); if (!f.length) return;
+      const first = f[0], last = f[f.length - 1];
+      if (!top.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
+      else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      return;
+    }
+    if (top === rm && (e.key === 'ArrowLeft' || e.key === 'ArrowRight') && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) {
+      e.preventDefault(); rmShow(rmIdx + (e.key === 'ArrowLeft' ? 1 : -1));
+    }
+  });
+  $$('[data-close-layer]').forEach((b) => b.addEventListener('click', () => closeLayer(b.closest('.layer'))));
+
+  /* ---------- תפריט נייד ---------- */
+  const mnav = $('#mnav');
+  $('[data-mnav-open]').addEventListener('click', (e) => { e.currentTarget.setAttribute('aria-expanded', 'true'); openLayer(mnav); });
+  $$('[data-mnav-link]', mnav).forEach((a) => a.addEventListener('click', () => closeLayer(mnav)));
+
+  /* ---------- שפה ---------- */
+  const langBtn = $('.lang__btn'), langMenu = $('#langMenu');
+  function toggleLang(open) { langMenu.hidden = !open; langBtn.setAttribute('aria-expanded', String(open)); }
+  langBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleLang(langMenu.hidden); });
+  document.addEventListener('click', (e) => { if (!langMenu.hidden && !e.target.closest('.lang')) toggleLang(false); });
+
+  /* ================= הזמנה ================= */
+  const bk = $('#booking');
+  const LIMITS = { adults: [1, 6], children: [0, 5], babies: [0, 3] };
+  const GUEST_LABELS = { adults: ['מבוגרים', 'מבוגר'], children: ['ילדים', 'ילד'], babies: ['תינוקות', 'תינוק'] };
+  const STEPS = ['תאריכים', 'אורחים', 'בחירת חדר', 'סיכום'];
+  const BK = { checkin: B.addDays(B.today(), 14), checkout: B.addDays(B.today(), 16), adults: 2, children: 0, babies: 0, roomId: null, step: 0, view: null, hover: null, name: '', notes: '' };
+  const datesReady = () => !!(BK.checkin && BK.checkout && B.nights(BK.checkin, BK.checkout) > 0);
+  const nightsNow = () => B.nights(BK.checkin, BK.checkout);
+  const guestCount = () => BK.adults + BK.children;
+  const fits = (id) => { const r = B.room(id); return !!r && r.maxGuests >= guestCount(); };
+  const guestsObj = () => ({ adults: BK.adults, children: BK.children, babies: BK.babies });
+  const ezgoArgs = () => ({ checkin: BK.checkin, checkout: BK.checkout, adults: BK.adults, children: BK.children, babies: BK.babies });
+  const msgArgs = () => ({ roomId: BK.roomId, checkin: BK.checkin, checkout: BK.checkout, adults: BK.adults, children: BK.children, babies: BK.babies, name: BK.name.trim(), notes: BK.notes.trim() });
+
+  function summaryLine() {
+    const parts = [datesReady() ? `${B.fmtShort(BK.checkin)} – ${B.fmtShort(BK.checkout)} · ${B.nightsLabel(nightsNow())}` : 'בחרו תאריכים', B.guestsLabel(guestsObj())];
+    const r = B.room(BK.roomId); if (r) parts.push(r.name);
+    return parts.join(' · ');
+  }
+
+  function openBooking({ step = 0, roomId = null } = {}) {
+    if (roomId) {
+      const r = B.room(roomId);
+      if (r && guestCount() > r.maxGuests) { BK.adults = Math.min(BK.adults, r.maxGuests); BK.children = Math.max(0, Math.min(BK.children, r.maxGuests - BK.adults)); }
+      BK.roomId = roomId;
+    }
+    if (BK.roomId && !fits(BK.roomId)) BK.roomId = null;
+    if (step > 0 && !datesReady()) step = 0;
+    const base = BK.checkin || B.today();
+    BK.view = new Date(base.getFullYear(), base.getMonth(), 1);
+    setStep(step, false);
+    openLayer(bk, () => $(`#bkH${BK.step}`));
+  }
+
+  function setStep(n, focus = true) {
+    if (n > 0 && !datesReady()) n = 0;
+    BK.step = n;
+    $$('.bk-pane', bk).forEach((p) => { p.hidden = Number(p.dataset.pane) !== n; });
+    renderSteps(); renderPane(); renderSide(); renderActions();
+    $('#bkBody').scrollTop = 0;
+    if (focus) { const h = $(`#bkH${n}`); h && h.focus({ preventScroll: true }); }
+  }
+  function renderPane() { [renderCalendar, renderGuests, renderRooms, renderSummary][BK.step](); }
+  function refresh() { renderSteps(); renderSide(); renderActions(); renderBookbar(); }
+
+  function renderSteps() {
+    $('#bkSteps').innerHTML = STEPS.map((label, i) => `<li><button type="button" class="bk-step${i < BK.step ? ' is-done' : ''}" data-step-go="${i}"${i === BK.step ? ' aria-current="step"' : ''}${i > 0 && !datesReady() ? ' disabled' : ''}><span class="n">${i + 1}</span><span class="lbl">${label}</span></button></li>`).join('');
+  }
+  function renderActions() {
+    const next = $('#bkNext');
+    $('#bkBack').hidden = BK.step === 0;
+    next.hidden = BK.step === 3;
+    next.textContent = ['המשך לאורחים', 'המשך לבחירת חדר', 'המשך לסיכום', ''][BK.step];
+    next.disabled = BK.step === 0 && !datesReady();
+    $('#bkSum').textContent = summaryLine();
+  }
+  function renderBookbar() {
+    if (!$('#bbIn')) return;
+    $('#bbIn').textContent = BK.checkin ? B.fmtDate(BK.checkin) : '—';
+    $('#bbOut').textContent = BK.checkout ? B.fmtDate(BK.checkout) : '—';
+    $('#bbGuests').textContent = B.guestsLabel(guestsObj());
+    $('#bbNights').textContent = datesReady() ? `${B.nightsLabel(nightsNow())} · לינה וארוחת בוקר` : '';
+  }
+
+  /* --- לוח שנה --- */
+  const calMonths = $('#calMonths');
+  const monthsToShow = () => (calMonths.clientWidth >= 540 || (!calMonths.clientWidth && window.innerWidth >= 1000) ? 2 : 1);
+  function dayButton(c, today) {
+    const past = c < today;
+    const isStart = B.sameDay(c, BK.checkin), isEnd = B.sameDay(c, BK.checkout);
+    const inRange = datesReady() && c > BK.checkin && c < BK.checkout;
+    const cls = ['day', B.sameDay(c, today) && 'is-today', isStart && 'is-start', isEnd && 'is-end', inRange && 'is-range'].filter(Boolean).join(' ');
+    const label = `${B.fmtDate(c)} ${c.getFullYear()}${isStart ? ' — הגעה' : isEnd ? ' — עזיבה' : ''}`;
+    return `<button type="button" class="${cls}" data-iso="${B.toISO(c)}" aria-label="${label}"${isStart || isEnd ? ' aria-pressed="true"' : ''}${past ? ' disabled' : ''}>${c.getDate()}</button>`;
+  }
+  function renderCalendar() {
+    const today = B.today(), cols = monthsToShow();
+    calMonths.style.setProperty('--cal-cols', cols);
+    let html = '';
+    for (let m = 0; m < cols; m++) {
+      const d = new Date(BK.view.getFullYear(), BK.view.getMonth() + m, 1);
+      const title = `${B.monthNames[d.getMonth()]} ${d.getFullYear()}`;
+      html += `<div class="cal-month"><p class="cal-title">${title}</p><div class="cal-grid" role="group" aria-label="${title}">${B.dayLetters.map((l, i) => `<span class="cal-dow" title="${B.dayNames[i]}">${l}</span>`).join('')}${B.monthMatrix(d.getFullYear(), d.getMonth()).flat().map((c) => (c ? dayButton(c, today) : '<span></span>')).join('')}</div></div>`;
+    }
+    calMonths.innerHTML = html;
+    const first = new Date(today.getFullYear(), today.getMonth(), 1);
+    const last = new Date(today.getFullYear(), today.getMonth() + 12 - cols, 1);
+    $('#calPrev').disabled = BK.view <= first;
+    $('#calNext').disabled = BK.view >= last;
+    $('#calSel').textContent = datesReady() ? `${B.fmtDate(BK.checkin)} – ${B.fmtDate(BK.checkout)} · ${B.nightsLabel(nightsNow())}` : BK.checkin ? `הגעה: ${B.fmtDate(BK.checkin)} · בחרו תאריך עזיבה` : 'בחרו תאריך הגעה';
+  }
+  function pickDate(d) {
+    const msg = $('#calMsg'); msg.textContent = '';
+    if (!BK.checkin || BK.checkout || d <= BK.checkin) { BK.checkin = d; BK.checkout = null; }
+    else if (B.nights(BK.checkin, d) > 30) { msg.textContent = 'אפשר להזמין כאן עד 30 לילות. לשהייה ארוכה יותר — צרו קשר עם המלון.'; return; }
+    else BK.checkout = d;
+    BK.hover = null;
+    renderCalendar(); refresh();
+    const again = $(`.day[data-iso="${B.toISO(d)}"]`, calMonths); again && again.focus({ preventScroll: true });
+  }
+  calMonths.addEventListener('click', (e) => { const b = e.target.closest('.day'); if (b && !b.disabled) pickDate(B.fromISO(b.dataset.iso)); });
+  calMonths.addEventListener('mouseover', (e) => {
+    if (!BK.checkin || BK.checkout) return;
+    const b = e.target.closest('.day'); if (!b || b.disabled) return;
+    const h = B.fromISO(b.dataset.iso);
+    $$('.day', calMonths).forEach((x) => { const xd = B.fromISO(x.dataset.iso); x.classList.toggle('is-preview', xd > BK.checkin && xd <= h); });
+  });
+  calMonths.addEventListener('mouseleave', () => $$('.day.is-preview', calMonths).forEach((x) => x.classList.remove('is-preview')));
+  $('#calPrev').addEventListener('click', () => { BK.view = new Date(BK.view.getFullYear(), BK.view.getMonth() - 1, 1); renderCalendar(); });
+  $('#calNext').addEventListener('click', () => { BK.view = new Date(BK.view.getFullYear(), BK.view.getMonth() + 1, 1); renderCalendar(); });
+  let calResize = 0;
+  window.addEventListener('resize', () => { clearTimeout(calResize); calResize = setTimeout(() => { if (layers.includes(bk) && BK.step === 0) renderCalendar(); }, 120); });
+
+  /* --- אורחים --- */
+  function renderGuests() {
+    const rows = $('#guestRows');
+    if (!rows.children.length) {
+      rows.innerHTML = Object.keys(LIMITS).map((k) => `<div class="g-row"><span class="g-name" id="g-${k}">${GUEST_LABELS[k][0]}</span><div class="stepper" role="group" aria-labelledby="g-${k}"><button type="button" data-g="${k}" data-d="-1" aria-label="${GUEST_LABELS[k][1]} פחות">${B.icons.minus}</button><output id="gv-${k}" aria-live="polite"></output><button type="button" data-g="${k}" data-d="1" aria-label="${GUEST_LABELS[k][1]} נוסף">${B.icons.plus}</button></div></div>`).join('');
+    }
+    Object.keys(LIMITS).forEach((k) => {
+      const [min, max] = LIMITS[k];
+      $(`#gv-${k}`).textContent = BK[k];
+      $(`[data-g="${k}"][data-d="-1"]`, rows).disabled = BK[k] <= min;
+      $(`[data-g="${k}"][data-d="1"]`, rows).disabled = BK[k] >= max;
+    });
+    const ok = B.roomsFor(guestsObj());
+    $('#guestNote').innerHTML = ok.length
+      ? `${esc(B.guestsLabel(guestsObj()))} — ${ok.length === 1 ? `מתאים להרכב: ${esc(ok[0].name)}` : `${ok.length} סוגי חדרים מתאימים להרכב`}.`
+      : `להרכב של ${guestCount()} אורחים אין חדר אחד מתאים בהזמנה אונליין. נשמח להתאים לכם כמה חדרים או יחידה משפחתית מורחבת — <a href="${B.phoneHref}">${esc(B.phone)}</a> או <a href="${B.whatsappUrl(B.bookingMessage(msgArgs()))}" target="_blank" rel="noopener">WhatsApp</a>.`;
+  }
+  $('#guestRows').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-g]'); if (!b || b.disabled) return;
+    const k = b.dataset.g, [min, max] = LIMITS[k];
+    BK[k] = Math.max(min, Math.min(max, BK[k] + Number(b.dataset.d)));
+    if (BK.roomId && !fits(BK.roomId)) BK.roomId = null;
+    renderGuests(); refresh();
+    if (b.disabled) { const other = $(`[data-g="${k}"][data-d="${-Number(b.dataset.d)}"]`, $('#guestRows')); other && other.focus(); }
+  });
+
+  /* --- חדרים בהזמנה --- */
+  function renderRooms() {
+    const n = nightsNow(), g = guestCount(), ok = B.roomsFor(guestsObj());
+    const hidden = B.rooms.filter((r) => !ok.includes(r));
+    $('#roomsHint').textContent = `${B.fmtDate(BK.checkin, false)} – ${B.fmtDate(BK.checkout, false)} · ${B.nightsLabel(n)} · ${B.guestsLabel(guestsObj())}`;
+    $('#bkRooms').innerHTML = ok.length ? ok.map((r) => {
+      const sel = BK.roomId === r.id;
+      return `<article class="bk-room${sel ? ' is-selected' : ''}" aria-labelledby="bkr-${r.id}">
+        <div class="frame">${pic(r.images[0], false)}</div>
+        <div>
+          <h4 id="bkr-${r.id}">${esc(r.name)}</h4>
+          <p class="meta">${esc(r.subtitle)} · ${esc(r.guestsLabel)}</p>
+          <p class="feat">${r.features.slice(0, 4).map(esc).join(' · ')}</p>
+          <button class="link" type="button" data-details="${r.id}">פרטים ותמונות</button>
+        </div>
+        <div class="bk-price">
+          <span class="from">החל מ־</span>
+          <span class="amt">${B.fmtPrice(B.nightlyPrice(r.id, g))}</span>
+          <span class="tot">ללילה · ${B.nightsLabel(n)}: ${B.fmtPrice(B.estimate(r.id, n, g))}</span>
+          <button class="btn btn--sm${sel ? ' btn--ink' : ''}" type="button" data-select="${r.id}" aria-pressed="${sel}">${sel ? B.icons.check + 'נבחר' : 'בחירה'}</button>
+        </div>
+      </article>`;
+    }).join('') : `<p class="g-note">להרכב של ${g} אורחים אין חדר אחד מתאים בהזמנה אונליין — צרו קשר ונתאים לכם כמה חדרים או יחידה משפחתית מורחבת: <a href="${B.phoneHref}">${esc(B.phone)}</a>.</p>`;
+    $('#bkRoomsHidden').textContent = hidden.length && ok.length ? `לא מוצגים (אינם מתאימים להרכב): ${hidden.map((r) => `${r.name} — ${r.guestsLabel}`).join(' · ')}.` : '';
+    $('#bkRoomsNote').textContent = B.priceNote;
+  }
+  $('#bkRooms').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-select]'); if (!b) return;
+    BK.roomId = BK.roomId === b.dataset.select ? null : b.dataset.select;
+    renderRooms(); refresh();
+    const again = $(`[data-select="${b.dataset.select}"]`, $('#bkRooms')); again && again.focus({ preventScroll: true });
+  });
+
+  /* --- סיכום --- */
+  function renderSummary() {
+    const r = B.room(BK.roomId), n = nightsNow(), g = guestCount();
+    const rows = [['הגעה', B.fmtDate(BK.checkin)], ['עזיבה', B.fmtDate(BK.checkout)], ['לילות', B.nightsLabel(n)], ['אורחים', B.guestsLabel(guestsObj())], ['חדר', r ? r.name : 'ייבחר במנוע ההזמנות']];
+    $('#sumList').innerHTML = rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('');
+    $('#sumTotal').innerHTML = r ? `<span>הערכה לשהייה</span><b>${B.fmtPrice(B.estimate(r.id, n, g))}</b>` : `<span>המחיר יוצג במנוע ההזמנות לפי סוג החדר</span>`;
+    $('#sumNote').textContent = B.priceNote;
+    $('#bkName').value = BK.name; $('#bkNotes').value = BK.notes;
+    updateContactLinks();
+  }
+  function updateContactLinks() {
+    const text = B.bookingMessage(msgArgs());
+    $('#waBtn').href = B.whatsappUrl(text);
+    $('#bkMail').href = B.mailtoUrl(text);
+  }
+  $('#bkName').addEventListener('input', (e) => { BK.name = e.target.value; updateContactLinks(); });
+  $('#bkNotes').addEventListener('input', (e) => { BK.notes = e.target.value; updateContactLinks(); });
+  $('#bkPhone').href = B.phoneHref; $('#bkPhone').textContent = `או התקשרו: ${B.phone}`;
+
+  /* --- סיכום צדדי --- */
+  function renderSide() {
+    const r = B.room(BK.roomId), n = nightsNow(), g = guestCount();
+    const perks = B.reasons.filter((x) => /חניה|ביטול|המחיר/.test(x.title)).map((x) => x.title);
+    $('#bkSide').innerHTML = `
+      <h3 class="side-title">ההזמנה שלכם</h3>
+      <dl class="side-list">
+        <dt>הגעה</dt><dd>${BK.checkin ? esc(B.fmtDate(BK.checkin)) : '—'}</dd>
+        <dt>עזיבה</dt><dd>${BK.checkout ? esc(B.fmtDate(BK.checkout)) : '—'}</dd>
+        <dt>לילות</dt><dd>${datesReady() ? esc(B.nightsLabel(n)) : '—'}</dd>
+        <dt>אורחים</dt><dd>${esc(B.guestsLabel(guestsObj()))}</dd>
+        <dt>חדר</dt><dd>${r ? esc(r.name) : 'טרם נבחר'}</dd>
+      </dl>
+      <div class="side-total">${r && datesReady() ? `<span>הערכה לשהייה</span><b>${B.fmtPrice(B.estimate(r.id, n, g))}</b>` : `<span>${datesReady() ? 'בחרו חדר להערכת מחיר' : 'בחרו תאריכים'}</span>`}</div>
+      <p class="price-note">${esc(B.priceNote)}</p>
+      <button class="btn btn--taupe btn--block" type="button" data-action="ezgo"${datesReady() ? '' : ' disabled'}>המשך להזמנה מאובטחת</button>
+      <ul class="perks">${perks.map((p) => `<li>${B.icons.check}<span>${esc(p)}</span></li>`).join('')}</ul>`;
+  }
+
+  /* --- פעולות --- */
+  function goEzgo() {
+    if (!datesReady()) { setStep(0); return; }
+    window.open(B.ezgoUrl(ezgoArgs()), '_blank', 'noopener');
+  }
+  bk.addEventListener('click', (e) => {
+    const go = e.target.closest('[data-step-go]'); if (go && !go.disabled) { setStep(Number(go.dataset.stepGo)); return; }
+    if (e.target.closest('[data-action="ezgo"]')) { goEzgo(); }
+  });
+  $('#bkNext').addEventListener('click', () => setStep(Math.min(3, BK.step + 1)));
+  $('#bkBack').addEventListener('click', () => setStep(Math.max(0, BK.step - 1)));
+  const bookbarForm = $('#bookbar');
+  if (bookbarForm) bookbarForm.addEventListener('submit', (e) => { e.preventDefault(); openBooking({ step: datesReady() ? 2 : 0 }); });
+
+  /* ================= מודאל חדר / גלריה ================= */
+  const rm = $('#roomModal'), rmCard = $('#rmCard'), rmImgEl = $('#rmImg');
+  let rmFiles = [], rmIdx = 0, rmRoomId = null, rmFade = 0;
+  function rmShow(i) {
+    rmIdx = (i + rmFiles.length) % rmFiles.length;
+    const f = rmFiles[rmIdx];
+    const apply = () => { rmImgEl.src = B.img(f); rmImgEl.alt = B.alt(f); rmImgEl.classList.remove('is-fading'); };
+    if (reduceMotion.matches || !rmImgEl.getAttribute('src')) apply(); else { clearTimeout(rmFade); rmImgEl.classList.add('is-fading'); rmFade = setTimeout(apply, 200); }
+    $('#rmCount').textContent = `${pad2(rmIdx + 1)} / ${pad2(rmFiles.length)}`;
+    $('#rmCaption').textContent = rmRoomId ? '' : B.alt(f);
+    $$('.rm-thumb', rm).forEach((t, k) => t.setAttribute('aria-current', String(k === rmIdx)));
+    const th = $$('.rm-thumb', rm)[rmIdx]; th && th.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }
+  function openLightbox(files, roomId) {
+    rmFiles = files; rmRoomId = roomId || null; rmIdx = 0;
+    rmImgEl.removeAttribute('src');
+    rmCard.classList.toggle('is-gallery', !roomId);
+    $('#rmThumbs').innerHTML = files.map((f, k) => `<button class="rm-thumb" type="button" data-rm-i="${k}" aria-label="תמונה ${k + 1}: ${esc(B.alt(f))}"><img src="${B.img(f)}" alt="" decoding="async"></button>`).join('');
+    if (roomId) {
+      const r = B.room(roomId), inBooking = layers.includes(bk);
+      rm.setAttribute('aria-labelledby', 'rmTitle');
+      $('#rmInfo').innerHTML = `
+        <p class="eyebrow">${r.count} ${unitOf(r)} בבית</p>
+        <h2 class="display display--md" id="rmTitle">${esc(r.name)}</h2>
+        <p class="rm-sub">${esc(r.subtitle)}</p>
+        <p class="rm-meta">${esc(r.guestsLabel)}</p>
+        <div class="copy">${r.description.map((p) => `<p>${esc(p)}</p>`).join('')}</div>
+        <ul class="rm-feat">${r.features.map((f) => `<li>${B.icons.check}<span>${esc(f)}</span></li>`).join('')}</ul>
+        <p class="rm-price">החל מ־${B.fmtPrice(fromPrice(r.id))}<s>${B.fmtPrice(fromPriceFull(r.id))}</s></p>
+        <p class="price-note">${esc(B.priceNote)}</p>
+        <button class="btn btn--taupe" type="button" data-rm-book="${r.id}">${inBooking ? 'בחירת חדר זה' : 'הזמנת חדר זה'}</button>`;
+    } else {
+      rm.setAttribute('aria-labelledby', 'rmGalleryTitle');
+      $('#rmInfo').innerHTML = `<h2 class="sr-only" id="rmGalleryTitle">גלריה</h2>`;
+    }
+    rmShow(0);
+    openLayer(rm, () => $('.rm-close', rm));
+  }
+  rm.addEventListener('click', (e) => {
+    const s = e.target.closest('[data-rm-step]'); if (s) { rmShow(rmIdx + Number(s.dataset.rmStep)); return; }
+    const t = e.target.closest('[data-rm-i]'); if (t) { rmShow(Number(t.dataset.rmI)); return; }
+    const b = e.target.closest('[data-rm-book]');
+    if (b) {
+      const id = b.dataset.rmBook;
+      closeLayer(rm);
+      if (layers.includes(bk)) { BK.roomId = id; if (BK.step === 2) renderRooms(); refresh(); }
+      else openBooking({ roomId: id });
+    }
+  });
+
+  /* ---------- מאזין כללי: הזמנה / פרטים / גלריה ---------- */
+  document.addEventListener('click', (e) => {
+    const book = e.target.closest('[data-book]');
+    if (book) { e.preventDefault(); if (layers.includes(mnav)) closeLayer(mnav); openBooking({ step: Number(book.dataset.step || 0), roomId: book.dataset.room || null }); return; }
+    const det = e.target.closest('[data-details]');
+    if (det && det.dataset.details) { openLightbox(B.room(det.dataset.details).images, det.dataset.details); return; }
+    if (e.target.closest('[data-gallery]')) openLightbox(B.gallery, null);
+  });
+
+  /* ================= מודאל פרטים (אותה שכבה של החדרים): חוויות, היסטוריה, מיקום, חוות דעת ================= */
+  function openInfoModal({ files, kicker, title, html }) {
+    if (layers.includes(mnav)) closeLayer(mnav);
+    rmFiles = files; rmRoomId = null; rmIdx = 0;
+    rmImgEl.removeAttribute('src');
+    rmCard.classList.remove('is-gallery');
+    $('#rmThumbs').innerHTML = files.map((f, k) => `<button class="rm-thumb" type="button" data-rm-i="${k}" aria-label="תמונה ${k + 1}: ${esc(B.alt(f))}"><img src="${B.img(f)}" alt="" decoding="async"></button>`).join('');
+    rm.setAttribute('aria-labelledby', 'rmTitle');
+    $('#rmInfo').innerHTML = `<p class="eyebrow">${esc(kicker)}</p><h2 class="display display--md" id="rmTitle">${esc(title)}</h2>${html}`;
+    rmShow(0);
+    openLayer(rm, () => $('.rm-close', rm));
+  }
+  const bookBtn = '<button class="btn btn--taupe" type="button" data-rm-bookany style="margin-top:30px">הזמינו שהות</button>';
+  const openService = (id) => { const x = svc(id); if (x) openInfoModal({ files: x.images, kicker: x.title, title: x.lead, html: `<div class="copy" style="margin-top:22px"><p>${esc(x.text)}</p></div>${bookBtn}` }); };
+  document.addEventListener('click', (e) => {
+    const s = e.target.closest('[data-service]');
+    if (s) { openService(s.dataset.service); return; }
+    if (e.target.closest('[data-history]')) {
+      openInfoModal({ files: H.images, kicker: 'היסטוריה', title: H.title, html: `<div class="copy" style="margin-top:22px">${H.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}</div><ol class="rm-tl">${H.timeline.map((t) => `<li><b>${esc(t.year)}</b><span>${esc(t.text)}</span></li>`).join('')}</ol>` });
+      return;
+    }
+    if (e.target.closest('[data-location]')) {
+      openInfoModal({ files: ['exterior.jpg', 'exterior-painting.jpg', 'garden-path.jpg'], kicker: 'מיקום', title: L.title, html: `<div class="copy" style="margin-top:22px"><p>${esc(L.text)}</p></div>
+        <h3 class="rm-h3">בסביבה</h3><ol class="rm-tl">${L.nearby.map((n) => `<li><b>${esc(n.place)}</b><span>${esc(n.detail)} · ${esc(n.time)}</span></li>`).join('')}</ol>
+        <h3 class="rm-h3">הוראות הגעה</h3><ol class="rm-tl">${L.directions.map((d) => `<li><b>${esc(d.mode)}</b><span>${esc(d.text)}</span></li>`).join('')}</ol>
+        <h3 class="rm-h3">חניה</h3><div class="copy"><p>${esc(svc('parking').text)}</p></div>
+        <p style="margin-top:26px"><a class="btn" href="${B.mapUrl}" target="_blank" rel="noopener">ניווט למלון</a></p>` });
+      return;
+    }
+    const rv = e.target.closest('[data-review]');
+    if (rv) {
+      const r = B.reviews[Number(rv.dataset.review)];
+      openInfoModal({ files: ['garden-couple.jpg', 'breakfast.jpg', 'double-arched.jpg'], kicker: 'ממליצים', title: r.title, html: `<div class="copy" style="margin-top:22px"><p>„${esc(r.text)}”</p></div>${bookBtn}` });
+      return;
+    }
+    const slide = e.target.closest('img[data-slide-service]');
+    if (slide) openService(slide.dataset.slideService);
+  });
+  rm.addEventListener('click', (e) => { if (e.target.closest('[data-rm-bookany]')) { closeLayer(rm); openBooking({}); } });
+
+  /* ================= ניווט פעיל וחשיפה בגלילה ================= */
+  if ('IntersectionObserver' in window) {
+    const navLinks = $$('.hdr-nav a[data-spy]');
+    const spy = new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) navLinks.forEach((a) => a.classList.toggle('is-active', a.dataset.spy === en.target.id)); });
+    }, { rootMargin: '-42% 0px -52% 0px' });
+    ['story', 'rooms', 'offers', 'contact'].forEach((id) => { const el = document.getElementById(id); el && spy.observe(el); });
+    const rvObs = new IntersectionObserver((entries) => entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('is-in'); rvObs.unobserve(en.target); } }), { rootMargin: '0px 0px -8% 0px', threshold: .08 });
+    $$('.rv').forEach((el) => { el.style.transitionDelay = (el.parentElement && el.parentElement.children.length > 2 ? (Array.prototype.indexOf.call(el.parentElement.children, el) % 3) * 90 : 0) + 'ms'; rvObs.observe(el); });
+  } else {
+    $$('.rv').forEach((el) => el.classList.add('is-in'));
+  }
+
+  renderBookbar();
+})();
+</script>
+
+<!-- תווית קונספט: הדף הוא הצעת עיצוב ולא האתר הרשמי של המלון -->
+<a class="bk-concept" href="https://bakah.jerusalem-hotel.co.il/" target="_blank" rel="noopener">קונספט עיצובי · לא האתר הרשמי של המלון ↗</a>
+<style>
+.bk-concept{position:fixed;left:calc(12px + env(safe-area-inset-left,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:80;display:inline-block;max-width:calc(100vw - 24px);padding:7px 12px;border-radius:999px;background:rgba(18,16,14,.84);color:#fff;font:500 12px/1.3 system-ui,-apple-system,'Segoe UI',Arial,sans-serif;letter-spacing:0;text-transform:none;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:0 2px 12px rgba(0,0,0,.18);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.bk-concept--right{left:auto;right:calc(12px + env(safe-area-inset-right,0px))}
+.bk-concept:hover{background:rgba(18,16,14,.96);color:#fff}
+.bk-concept:focus-visible{outline:2px solid #fff;outline-offset:2px}
+@media (max-width:1024px){.bk-concept{bottom:calc(84px + env(safe-area-inset-bottom,0px));font-size:11px;padding:6px 10px}}
+@media print{.bk-concept{display:none}}
+</style>
+</body>
+</html>

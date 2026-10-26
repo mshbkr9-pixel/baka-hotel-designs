@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>עיצובים לבית קטן בבקעה</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="חמישה עיצובים לאתר הזמנות של מלון בית קטן בבקעה, ירושלים — כל אחד בהשראת אחד מחמשת המלונות הטובים בעולם.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231d1b18'/%3E%3Cpath d='M12 52V30a6 6 0 0 1 12 0v22M26 52V22a6 6 0 0 1 12 0v30M40 52V30a6 6 0 0 1 12 0v22' fill='none' stroke='%23d4a373' stroke-width='2.5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Heebo:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f3ee;
+    --paper: #fffdf9;
+    --ink: #1d1b18;
+    --muted: #6d675f;
+    --line: #ddd5c9;
+    --accent: #8a5a2b;
+    --ok: #2f7d4f;
+    --no: #b3412e;
+    --shadow: 0 1px 2px rgba(29, 27, 24, .06), 0 12px 32px -12px rgba(29, 27, 24, .18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #171512; --paper: #1f1c18; --ink: #f1ebe2; --muted: #a79e92; --line: #3a342d; --accent: #d4a373;
+      --ok: #7fc79a; --no: #f0917c;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.6);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #171512; --paper: #1f1c18; --ink: #f1ebe2; --muted: #a79e92; --line: #3a342d; --accent: #d4a373;
+    --ok: #7fc79a; --no: #f0917c;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 300 16px/1.65 Heebo, system-ui, sans-serif;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  @media (min-width: 720px) { .wrap { padding-left: max(40px, env(safe-area-inset-left, 0px)); padding-right: max(40px, env(safe-area-inset-right, 0px)); } }
+
+  header.top { padding: 64px 0 40px; border-bottom: 1px solid var(--line); }
+  .eyebrow { font-weight: 600; font-size: 12px; letter-spacing: .18em; color: var(--accent); margin: 0 0 18px; }
+  h1 {
+    font: 300 clamp(36px, 6vw, 68px)/1.08 "Frank Ruhl Libre", serif;
+    margin: 0 0 22px; letter-spacing: -.01em; text-wrap: balance;
+  }
+  .lede { max-width: 62ch; color: var(--muted); font-size: 17px; margin: 0; text-wrap: pretty; }
+  .facts { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 28px 0 0; padding: 0; list-style: none; font-size: 14px; color: var(--muted); }
+  .facts b { color: var(--ink); font-weight: 600; }
+
+  main { padding: 48px 0 24px; }
+  .grid { display: grid; gap: 28px; grid-template-columns: 1fr; }
+  @media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } .card:first-child { grid-column: 1 / -1; } }
+
+  .card {
+    display: flex; flex-direction: column; background: var(--paper); border: 1px solid var(--line);
+    border-radius: 4px; overflow: hidden; text-decoration: none; box-shadow: var(--shadow);
+    transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s;
+  }
+  .card:hover { transform: translateY(-3px); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+  .preview { position: relative; aspect-ratio: 16 / 10; max-width: 100%; overflow: hidden; background: var(--line); border-bottom: 1px solid var(--line); }
+  .card:first-child .preview { aspect-ratio: 16 / 8; }
+  .preview img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .preview .open {
+    position: absolute; inset-inline-start: 16px; bottom: 16px; z-index: 2;
+    background: rgba(20, 18, 15, .78); color: #fff; font-size: 13px; font-weight: 400; letter-spacing: .04em;
+    padding: 8px 14px; border-radius: 2px; backdrop-filter: blur(6px);
+    opacity: 0; transform: translateY(6px); transition: .3s;
+  }
+  .card:hover .open, .card:focus-visible .open { opacity: 1; transform: none; }
+  .body { padding: 22px 24px 26px; display: grid; gap: 10px; }
+  .meta { display: flex; align-items: baseline; gap: 12px; font-size: 13px; color: var(--muted); }
+  .rank { font: 400 13px Heebo, sans-serif; letter-spacing: .1em; color: var(--accent); }
+  .card h2 { margin: 0; font: 400 clamp(24px, 2.6vw, 32px)/1.15 "Frank Ruhl Libre", serif; }
+  .card h2 span { display: block; font: 300 15px/1.4 Heebo, sans-serif; color: var(--muted); margin-top: 6px; letter-spacing: .02em; }
+  .card p { margin: 0; color: var(--muted); text-wrap: pretty; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; padding: 0; list-style: none; }
+  .chips li { font-size: 12px; border: 1px solid var(--line); padding: 3px 10px; border-radius: 99px; color: var(--muted); }
+
+  .fid { padding: 24px 0 8px; }
+  .fid h2 { font: 400 clamp(26px, 3vw, 38px)/1.15 "Frank Ruhl Libre", serif; margin: 0 0 10px; }
+  .fid h3 { font: 400 clamp(21px, 2.2vw, 26px)/1.2 "Frank Ruhl Libre", serif; margin: 36px 0 10px; }
+  .fid p.sub { color: var(--muted); margin: 0 0 20px; max-width: 78ch; text-wrap: pretty; }
+  .fid ul { margin: 0 0 22px; padding-inline-start: 20px; color: var(--muted); max-width: 82ch; }
+  .fid li { margin-bottom: 6px; }
+  .fid li b { color: var(--ink); font-weight: 600; }
+  .tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); }
+  .tbl table { border-collapse: collapse; width: 100%; min-width: 680px; font-size: 14px; }
+  .tbl th, .tbl td { text-align: start; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .tbl th { font-weight: 600; font-size: 12px; letter-spacing: .05em; color: var(--muted); }
+  .tbl tr:last-child td { border-bottom: 0; }
+  .tbl .n { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .tbl .ok { color: var(--ok); font-weight: 600; }
+  .tbl .no { color: var(--no); font-weight: 600; }
+  footer { border-top: 1px solid var(--line); margin-top: 40px; padding: 28px 0 56px; color: var(--muted); font-size: 14px; }
+  footer p { margin: 0 0 8px; max-width: 80ch; }
+  footer a { color: var(--accent); }
+  @media (prefers-reduced-motion: reduce) { .card, .open { transition: none; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">קונספט עיצובי · בית קטן בבקעה, ירושלים</p>
+    <h1>חמישה אתרי הזמנות לבית קטן בבקעה, בתבנית של חמשת המלונות הטובים בעולם</h1>
+    <p class="lede">כל עיצוב משכפל, מקטע מול מקטע, את האתר של אחד מחמשת המקומות הראשונים ברשימת The World’s 50 Best Hotels לשנת 2026: אותו מבנה, אותן מידות, אותם צבעים ואותה התנהגות. התוכן, התמונות והמחירים הם של בית קטן בבקעה. בכל אחד מהם תהליך הזמנה מלא — תאריכים, אורחים, בחירת חדר ומחיר משוער — שמעביר בסופו למנוע ההזמנות האמיתי של המלון.</p>
+    <ul class="facts">
+      <li><b>34</b> חדרים · 4 סוגי חדרים</li>
+      <li><b>EZGO</b> מנוע ההזמנות של המלון</li>
+      <li><b>5%</b> הנחה בהזמנה ישירה</li>
+      <li><b>RTL</b> עברית מלאה, מותאם לנייד</li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="wrap grid" id="grid"></div>
+</main>
+
+<section class="fid" aria-labelledby="fid-h">
+  <div class="wrap">
+    <h2 id="fid-h">עד כמה זה זהה למקור</h2>
+    <p class="sub">כל אחד מחמשת האתרים המקוריים נמדד ברוחב 1440 בכלי מדידה אחד: סדר המקטעים, מיקומים וגבהים, גופנים, ריווח בין אותיות, כפתורים, גודלי תמונות ורשתות. אותו כלי הורץ על כל שכפול. המבנה משוקף מימין לשמאל, כך שמה שבמקור נמצא בשמאל נמצא כאן בימין.</p>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>עיצוב</th><th>מדדים באתר המקורי</th><th>בשכפול</th></tr></thead>
+        <tbody>
+          <tr><td>#1 Rosewood</td><td>11 מקטעים (מיקום y וגובה) · גובה העמוד 9,296 · כפתורים 121×54, 113×46, 111×46</td><td>11/11 מקטעים בהפרש 0px · גובה 9,295 · כפתורים זהים</td></tr>
+          <tr><td>#2 Capella</td><td>8 מקטעים · גובה העמוד 7,833 · תמונת חדרים 911×512 · גלריה 1296×723 · פס 216 ‎#EFEFEF · הצעות 426×426</td><td>8/8 מקטעים בהפרש 0px · גובה 7,833 · מידות פנימיות בהפרש 0–1px</td></tr>
+          <tr><td>#3 Four Seasons</td><td>15 מקטעים · גובה העמוד 10,053 · פס עליון 96 · כפתור 190×41 בעיגול 5 · שורות 727×779</td><td>15/15 מקטעים בהפרש 0px · גובה 10,053 · פס עליון וכפתור זהים</td></tr>
+          <tr><td>#4 Atlantis</td><td>גובה העמוד 10,214 · כותרת הפתיחה ב־y400 · החלק הבהיר ב־y7200 · „Happening Now” ב־y7292 · כרטיסי חדרים ב־y9401</td><td>גובה 10,214 · כל נקודות הציון באותו y בדיוק</td></tr>
+          <tr><td>#5 Passalacqua</td><td>11 מקטעים · גובה העמוד 7,607 · ציטוט 70/77 ברוחב 522 · הצהרה ב־y1030 בגובה 275</td><td>11/11 מקטעים בהפרש 0px · גובה 7,607</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>מה לא הועתק, ולמה</h3>
+    <ul>
+      <li><b>לוגואים, סמלים ושמות המותג</b> הם סימני מסחר. אילו הועתקו, האתר היה מציג את בית קטן בבקעה כמלון שלהם, ולכן כל עיצוב מציג סמל וחתימה של בית קטן בבקעה.</li>
+      <li><b>טקסטים ותמונות</b> מוגנים בזכויות יוצרים. כל התוכן והתמונות כאן הם של בית קטן בבקעה.</li>
+      <li><b>גופנים:</b> 14 הגופנים של חמשת האתרים מסחריים וברישיון, וגם אין בהם אותיות עבריות. זה נבדק על האתרים עצמם: מחרוזת אנגלית משנה את רוחבה כשמחליפים לגופן המקורי, אבל מחרוזת עברית נשארת ברוחב זהה לגופן הגיבוי. במקומם נבחרו גופני Google בעברית וכוילו לגודל, למשקל, לגובה השורה ולריווח שנמדדו.</li>
+    </ul>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>מלון</th><th>גופן מקורי</th><th>אנגלית: גופן / גיבוי (px)</th><th>עברית: גופן / גיבוי (px)</th><th>עברית בגופן?</th></tr></thead>
+        <tbody>
+          <tr><td>Rosewood</td><td>Austin Light Web</td><td class="n">306.4 / 439.9</td><td class="n">303.4 / 303.4</td><td class="no">אין</td></tr>
+          <tr><td>Rosewood</td><td>Engravers Gothic Bold</td><td class="n">383.8 / 439.9</td><td class="n">303.4 / 303.4</td><td class="no">אין</td></tr>
+          <tr><td>Rosewood</td><td>Swiss 721 Black Condensed</td><td class="n">373.2 / 439.9</td><td class="n">303.4 / 303.4</td><td class="no">אין</td></tr>
+          <tr><td>Capella</td><td>Goudy Light</td><td class="n">374.2 / 443.1</td><td class="n">306.3 / 306.3</td><td class="no">אין</td></tr>
+          <tr><td>Capella</td><td>Goudy Regular</td><td class="n">373.2 / 443.1</td><td class="n">306.3 / 306.3</td><td class="no">אין</td></tr>
+          <tr><td>Capella</td><td>Calibre</td><td class="n">342.9 / 443.1</td><td class="n">306.3 / 306.3</td><td class="no">אין</td></tr>
+          <tr><td>Four Seasons</td><td>Neue Helvetica</td><td class="n">396.0 / 449.9</td><td class="n">312.4 / 312.4</td><td class="no">אין</td></tr>
+          <tr><td>Four Seasons</td><td>Monotype Garamond</td><td class="n">343.4 / 449.9</td><td class="n">312.4 / 312.4</td><td class="no">אין</td></tr>
+          <tr><td>Atlantis</td><td>Atlantis The Royal</td><td class="n">443.9 / 449.9</td><td class="n">312.4 / 312.4</td><td class="no">אין</td></tr>
+          <tr><td>Atlantis</td><td>Averta PE</td><td class="n">404.5 / 449.9</td><td class="n">312.4 / 312.4</td><td class="no">אין</td></tr>
+          <tr><td>Passalacqua</td><td>Canela-Thin</td><td class="n">339.7 / 439.9</td><td class="n">303.4 / 303.4</td><td class="no">אין</td></tr>
+          <tr><td>Passalacqua</td><td>Canela-Light</td><td class="n">347.4 / 439.9</td><td class="n">303.4 / 303.4</td><td class="no">אין</td></tr>
+          <tr><td>Passalacqua</td><td>Switzer-Regular</td><td class="n">395.6 / 439.9</td><td class="n">303.4 / 303.4</td><td class="no">אין</td></tr>
+          <tr><td>Passalacqua</td><td>Switzer-Light</td><td class="n">389.8 / 439.9</td><td class="n">303.4 / 303.4</td><td class="no">אין</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>התוכן נאסף מהאתר של בית קטן בבקעה (bakah.jerusalem-hotel.co.il) ב־25.10.2026. המחירים הם דגימה ממנוע ההזמנות של המלון ללילה בנובמבר 2026, כולל ארוחת בוקר ומע״מ; המחיר הסופי נקבע במנוע לפי התאריכים.</p>
+    <p>הדירוג: <a href="https://www.theworlds50best.com/hotels/" target="_blank" rel="noopener">The World’s 50 Best Hotels 2026</a>, שפורסם בפריז ב־15.9.2026.</p>
+    <p>העיצובים משכפלים את המבנה, המידות, הצבעים וההתנהגות של האתרים המקוריים, בלי הלוגואים, הטקסטים, התמונות והגופנים שלהם (הפירוט למעלה). כל הנתונים שנאספו זמינים גם בקובץ <a href="data/baka-data.json">data/baka-data.json</a>.</p>
+  </div>
+</footer>
+
+<script>
+  const designs = [
+    { href: '1-rosewood/index.html', img: 'rw', rank: '#1', hotel: 'Rosewood Hong Kong', place: 'הונג קונג',
+      title: 'שנהב ודיו', text: 'כותרת דו־שורתית עם כפתור הזמנה ירוק, סליידר פתיחה עם מונה, שלושה כרטיסים ברוחב 427 ברווח 80, מסך קידום עם פס שחור, קרוסלת חדרים ממורכזת ופוטר שנהב בארבע עמודות — 11 המקטעים בטווח פיקסל אחד מהמקור.',
+      chips: ['Frank Ruhl Libre 300 + Heebo', '11/11 מקטעים · 0px', 'שכבת הזמנה במסך מלא'] },
+    { href: '2-capella/index.html', img: 'cp', rank: '#2', hotel: 'Capella Bangkok', place: 'בנגקוק',
+      title: 'בית פרטי על הנהר', text: 'כותרת דו־קומתית עם פס ורדרד, מבוא עם קולאז׳ 797×502, לשוניות חדרים מעל תמונה 911×512, גלריה 1296×723, פס „הזמינו את השהות” אפור, הצעות ריבועיות 426 ופוטר טאופ.',
+      chips: ['Frank Ruhl Libre + Assistant', 'לשוניות חדרים', 'הזמנה ב־4 שלבים'] },
+    { href: '3-four-seasons/index.html', img: 'fs', rank: '#3', hotel: 'Four Seasons Bangkok at Chao Phraya River', place: 'בנגקוק',
+      title: 'שחור־לבן מדויק', text: 'כותרת שקופה מעל הפתיחה שהופכת לשחורה בגלילה, תיבת מבוא אפורה, קרוסלה עם כרטיס מרכזי 370×208, ארבע הצעות 210×263 במיכל של 930, שורות אפורות עם תמונה 727×779, ציטוט אורח על מסך מלא ופוטר שחור.',
+      chips: ['Heebo 200 + Bona Nova', 'מיכל 930px', 'בדיקת מחירים ב־3 שלבים'] },
+    { href: '4-atlantis/index.html', img: 'at', rank: '#4', hotel: 'Atlantis The Royal', place: 'דובאי',
+      title: 'לילה קולנועי', text: 'פתיחת „זה הבית.” ובמה מוצמדת של שבעה מסכים מתחלפים עם מסילה, ואז מעבר לחלק בהיר: קרוסלת „עכשיו בבית קטן”, פאנל ממוסגר, ארבעה כרטיסי חדרים עם כפתורי זהב ופוטר לבן.',
+      chips: ['Noto Serif Hebrew + Rubik', 'במה מוצמדת · 7 מסכים', 'פאנל זכוכית כהה'] },
+    { href: '5-passalacqua/index.html', img: 'pq', rank: '#5', hotel: 'Passalacqua', place: 'אגם קומו',
+      title: 'מכתב אהבה לבקעה', text: 'פסוק מתהלים על הפתיחה, הצהרה ב־44 פיקסלים, שורות א־סימטריות של 854×569 עם טור טקסט של 382, כרטיסי חדרים 412×553, „קולות” בכתב יד עם קולאז׳ ו„מכתב אהבה” עם ציור צבעי המים.',
+      chips: ['Noto Serif Hebrew + IBM Plex', 'Playpen Sans לציטוטים', 'מגירת הזמנה'] }
+  ];
+
+  const grid = document.getElementById('grid');
+  grid.innerHTML = designs.map((d) => `
+    <a class="card" href="${d.href}">
+      <div class="preview">
+        <img src="previews/${d.img}.jpg" alt="המסך הראשון של העיצוב ${d.title}" width="864" height="540" loading="lazy">
+        <span class="open">פתיחת העיצוב ←</span>
+      </div>
+      <div class="body">
+        <div class="meta"><span class="rank" dir="ltr">${d.rank} · 50 Best Hotels 2026</span><span>${d.place}</span></div>
+        <h2>${d.title}<span>בהשראת ${d.hotel}</span></h2>
+        <p>${d.text}</p>
+        <ul class="chips">${d.chips.map((c) => `<li>${c}</li>`).join('')}</ul>
+      </div>
+    </a>`).join('');
+</script>
+</body>
+</html>
